@@ -72,14 +72,14 @@ export const query = graphql`
   query {
     MMM_1GatsbyImage: file(relativePath: {eq: "projects/3M/3M_01.webp"}) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
         }
       }
     },
     MMM_2GatsbyImage: file(relativePath: {eq: "projects/3M/3M_02.webp"}) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
         }
       }

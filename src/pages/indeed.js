@@ -76,7 +76,7 @@ export const query = graphql`
     },
     indeed_2GatsbyImage: file(relativePath: {eq: "projects/indeed/indeed_02.webp"}) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
         }
       }

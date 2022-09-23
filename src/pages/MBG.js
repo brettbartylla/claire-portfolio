@@ -28,7 +28,7 @@ export const query = graphql`
   query {
     mbg_1GatsbyImage: file(relativePath: {eq: "projects/mbg/mbg_01.webp"}) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
         }
       }
