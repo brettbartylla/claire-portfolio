@@ -1,10 +1,16 @@
 @import "./variables.scss";
 
 .Projects {
-    ul {
-      li {
-          display: inline;
-          padding-right: 30px;;
-      }
+  ul {
+    li {
+      display: inline;
+      padding-right: 30px;;
     }
+  }
+  .projectDetails {
+    margin-bottom: 15px;
+  }
+  .gatsby-image-wrapper {
+    margin-bottom: 85px;
+  }
 }

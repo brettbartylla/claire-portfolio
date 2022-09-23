@@ -11,22 +11,19 @@ const NotFoundPage = ({data}) => (
     <Seo title="Indeed" />
     <Navbar />
     <div className="Projects">
-      <h4 className="u-underline">INDEED</h4>
+      <h4 className="u-underline">3m</h4>
       <ul className="projectDetails">
         <li>
-          Campaign Marketing Video
+          Graphic design, animation, video editing.
         </li>
         <li>
-          Graphic design, animation, video editing, copywriting
-        </li>
-        <li>
-          New hiring feature marketing video for Indeed
+          Informal video on the setup of the 3M Encapsulated System Holder <a href="3m.com">Link to Video</a>
         </li>
       </ul>
       <Img 
-        fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
+        fluid={data.MMM_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="Indeed Project 1"
+        alt="3M Project 1"
       />
       <ul className="projectDetails">
         <li>
@@ -40,9 +37,9 @@ const NotFoundPage = ({data}) => (
         </li>
       </ul>
       <Img 
-        fluid={data.indeed_2GatsbyImage.childImageSharp.fluid}
+        fluid={data.MMM_2GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="Indeed Project 1"
+        alt="3m Project 2"
       />
 
 
@@ -57,14 +54,14 @@ export default NotFoundPage
 // image queries
 export const query = graphql`
   query {
-    indeed_1GatsbyImage: file(relativePath: {eq: "projects/indeed/indeed_01.webp"}) {
+    MMM_1GatsbyImage: file(relativePath: {eq: "projects/3M/3M_01.webp"}) {
       childImageSharp {
         fluid(maxWidth: 2000) {
         ...GatsbyImageSharpFluid
         }
       }
     },
-    indeed_2GatsbyImage: file(relativePath: {eq: "projects/indeed/indeed_02.webp"}) {
+    MMM_2GatsbyImage: file(relativePath: {eq: "projects/3M/3M_02.webp"}) {
       childImageSharp {
         fluid(maxWidth: 2000) {
         ...GatsbyImageSharpFluid
