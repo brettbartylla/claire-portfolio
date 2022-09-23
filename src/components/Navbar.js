@@ -12,7 +12,7 @@ export default function Navbar() {
           <Link to="/indeed">INDEED</Link>
         </li>
         <li>
-          <Link to="/3m">3M</Link>
+          <Link to="/3M">3M</Link>
         </li>
         <li>
           <Link to="/project3">MBG</Link>

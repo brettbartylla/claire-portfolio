@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Navbar from "../components/Navbar"
 
 import Layout from "../components/layout"
@@ -59,7 +59,7 @@ export const query = graphql`
   query {
     indeed_1GatsbyImage: file(relativePath: {eq: "projects/indeed/indeed_01.webp"}) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
         }
       }
