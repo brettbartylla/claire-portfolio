@@ -8,4 +8,11 @@
       font-size: $font-size-secondary;
     }
   }
+
+  //images
+  img {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
 }
