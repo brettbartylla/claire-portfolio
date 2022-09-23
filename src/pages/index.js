@@ -13,7 +13,6 @@ import Seo from "../components/seo"
 const IndexPage = ({data}) => (
   <Layout>
     <Seo title="Home" />
-    <h4 className="logo">CLAIRE LOES</h4>
     <Navbar />
     <div className="Grid--landing">
       <div></div>

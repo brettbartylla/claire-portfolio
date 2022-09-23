@@ -5,6 +5,7 @@ import "./sass/styles.scss"
 export default function Navbar() {
   return (
     <nav>
+      <h4 className="logo">CLAIRE LOES</h4>
       <h4>COMMERCIAL WORK</h4>
       <ul>
         <li>
