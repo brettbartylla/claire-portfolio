@@ -1,5 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
+import Navbar from "../components/Navbar"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -12,7 +13,8 @@ import Seo from "../components/seo"
 const IndexPage = ({data}) => (
   <Layout>
     <Seo title="Home" />
-
+    CLAIRE LOES
+    <Navbar />
     <div className="Grid--landing">
       <div></div>
     </div>
