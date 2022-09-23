@@ -35,12 +35,12 @@ const NotFoundPage = ({data}) => (
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_01.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_03.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_02.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_02.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_10.gif" alt="" />
       </div>
       <div className="desc-container m-t-45 m-b-15">
         <article>
           <p>
-            Help Center billing video
+            Help Center Billing video
           </p>
         </article>
         <article>
@@ -59,6 +59,11 @@ const NotFoundPage = ({data}) => (
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_04.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_05.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_06.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_11.gif" alt="" />
+
+
+
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_05.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_08.gif" alt="" />
       </div>
       <div className="desc-container m-t-45 m-b-15">

@@ -1,10 +1,13 @@
 @import "./variables.scss";
 
 .Projects {
+  margin-left: 45px;
+  margin-right: 25px;
+
   article {
     p {
       display: inline;
-      padding-right: 30px;;
+      padding-right: 30px;
       font-size: $font-size-secondary;
     }
   }

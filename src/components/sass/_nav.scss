@@ -5,8 +5,14 @@ h4 {
 }
 
 nav {
+  background-color: #E7B4FF;
+  border-right: solid 1px #000;
   position: fixed;
-  margin-top: 60px;
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-top: 60px;
+  height: 100%;
+  // padding-left: 30px;
   ul {
     display: flex;
     flex-direction: column;
