@@ -1,11 +1,21 @@
+@font-face {
+  font-family: NeueMachinaRegular;
+  src: url("/fonts/PPNeueMachina-PlainRegular.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: NeueMachinaLight;
+  src: url("/fonts/PPNeueMachina-PlainLight.otf");
+  font-display: swap;
+}
 //colors
 $primary-color: null;
 $secondary-color: null;
 $tertiary-color: null;
 
 //fonts
-$primary-font: "Courier New";
-$secondary-font: Helvetica;
+$primary-font: NeueMachinaRegular;
+$secondary-font: NeueMachinaLight;
 
 $font-size-body: 16px;
 $font-size-secondary: 14px;

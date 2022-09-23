@@ -4,7 +4,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <nav>
-      COMMERCIAL WORK
+      <h4>COMMERCIAL WORK</h4>
       <ul>
         <li>
           <Link to="/indeed">INDEED</Link>
@@ -29,7 +29,7 @@ export default function Navbar() {
         </li>
       </ul>
       <br />
-      INDEPENDENT WORK
+      <h4>INDEPENDENT WORK</h4>
       <ul>
         <li>
           <Link to="/project3">MOTION</Link>
