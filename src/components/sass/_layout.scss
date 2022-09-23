@@ -19,5 +19,17 @@ li {
 }
 
 .logo {
-  margin-bottom: 30px;
+  padding-left: 25px;
+}
+
+header {
+  background-color: #efefef;
+  border-bottom: 1px solid black;
+  margin-left: -25px;
+  margin-right: -25px;
+  width: 100%;
+  position: fixed;
+  padding-top: 20px;
+  top: -5px;
+  z-index: 999;
 }

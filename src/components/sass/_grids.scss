@@ -18,18 +18,22 @@
 //   }
 // }
 
+header {
+  grid-area: header;
+}
 main {
   min-height: 100vh;
   display: grid;
-  grid-template-areas: "main" "left-sidebar";     
-  // background-color: #f9904a;
+  grid-template-areas: "header header"
+                        "left-sidebar main";    
 }
 
 @media (min-width: 600px) {
   main {
     grid-template-columns: minmax(auto, 250px) minmax(250px, 1fr) minmax(auto, 0);
     grid-template-rows: min-content 1fr min-content;
-    grid-template-areas: "left-sidebar main";    
+    grid-template-areas: "header header"
+                         "left-sidebar main";
   }
 }
 
@@ -39,6 +43,5 @@ nav {
 
 .Projects {
   grid-area: main;
+  margin-top: 60px;
 }
-
-

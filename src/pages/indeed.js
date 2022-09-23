@@ -1,5 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
+import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 
 import Layout from "../components/layout"
@@ -9,6 +10,7 @@ import Img from 'gatsby-image'
 const NotFoundPage = ({data}) => (
   <Layout>
     <Seo title="Indeed" />
+    <Header />
     <Navbar />
     <div className="Projects">
       <h4>INDEED</h4>
