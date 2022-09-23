@@ -22,16 +22,16 @@ const NotFoundPage = ({data}) => (
           Informal video on the setup of the 3M Encapsulated System Holder <a href="3m.com">Link to Video</a>
         </li>
       </ul>
+      <div className="iframe-container">
       <iframe
-        src="https://player.cloudinary.com/embed/?public_id=https%3A%2F%2Fres.cloudinary.com%2Fdfqto9ozl%2Fvideo%2Fupload%2Fv1663953292%2Fclaire-portfolio%2F3M%2Fmmm_project_01.mp4&cloud_name=dfqto9ozl&player%5Bfluid%5D=true&player%5Bcontrols%5D=true&player%5Bmuted%5D=true&player%5BshowJumpControls%5D=false&player%5BposterOptions%5D%5Btransformation%5D%5BstartOffset%5D=29&player%5Bautoplay%5D=true&source%5BsourceTypes%5D%5B0%5D=mp4"
-        width="640"
-        height="480"
-        allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-        allowfullscreen
-        frameborder="0"
-      ></iframe>
-
-
+          src="https://player.cloudinary.com/embed/?public_id=https%3A%2F%2Fres.cloudinary.com%2Fdfqto9ozl%2Fvideo%2Fupload%2Fv1663953292%2Fclaire-portfolio%2F3M%2Fmmm_project_01.mp4&cloud_name=dfqto9ozl&player%5Bfluid%5D=true&player%5Bcontrols%5D=true&player%5Bmuted%5D=true&player%5BshowJumpControls%5D=false&player%5BposterOptions%5D%5Btransformation%5D%5BstartOffset%5D=29&player%5Bautoplay%5D=true&source%5BsourceTypes%5D%5B0%5D=mp4"
+          width="640"
+          height="480"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          allowfullscreen
+          frameborder="0"
+        ></iframe>
+      </div>
       <Img 
         fluid={data.MMM_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
