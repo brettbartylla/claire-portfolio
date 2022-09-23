@@ -14,7 +14,7 @@ const NotFoundPage = ({data}) => (
     <Navbar />
     <div className="Projects">
       <h4>INDEED</h4>
-      <ul className="projectDetails">
+      <ul className="projectDetails m-b-15">
         <li>
           Campaign Marketing Video
         </li>
@@ -29,8 +29,9 @@ const NotFoundPage = ({data}) => (
         fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="Indeed Project 1"
+        className="m-b-50"
       />
-      <ul className="projectDetails">
+      <ul className="projectDetails p-t-20 m-b-15">
         <li>
           Campaign Marketing Video
         </li>

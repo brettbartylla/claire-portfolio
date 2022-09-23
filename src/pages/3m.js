@@ -14,7 +14,7 @@ const NotFoundPage = ({data}) => (
     <Navbar />
     <div className="Projects">
       <h4>3M</h4>
-      <ul className="projectDetails">
+      <ul className="projectDetails m-b-15">
         <li>
           Graphic design, animation, video editing.
         </li>
@@ -26,8 +26,9 @@ const NotFoundPage = ({data}) => (
         fluid={data.MMM_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="3M Project 1"
+        className="m-b-50"
       />
-      <ul className="projectDetails">
+      <ul className="projectDetails p-t-20 m-b-15">
         <li>
           Campaign Marketing Video
         </li>

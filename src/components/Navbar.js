@@ -24,7 +24,7 @@ export default function Navbar() {
           <Link to="/3M" activeClassName="active">3M</Link>
         </li>
         <li>
-          <Link to="/project3" activeClassName="active">MBG</Link>
+          <Link to="/MBG" activeClassName="active">MBG</Link>
         </li>
         <li>
           <Link to="/project3" activeClassName="active">HARRIS REED</Link>
