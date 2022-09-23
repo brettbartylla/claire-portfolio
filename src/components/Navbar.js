@@ -9,41 +9,43 @@ export default function Navbar() {
       <h4>COMMERCIAL WORK</h4>
       <ul>
         <li>
-          <Link to="/indeed">INDEED</Link>
+          <Link to="/indeed" activeClassName="active">
+            INDEED
+          </Link>
         </li>
         <li>
-          <Link to="/3M">3M</Link>
+          <Link to="/3M" activeClassName="active">3M</Link>
         </li>
         <li>
-          <Link to="/project3">MBG</Link>
+          <Link to="/project3" activeClassName="active">MBG</Link>
         </li>
         <li>
-          <Link to="/project3">HARRIS REED</Link>
+          <Link to="/project3" activeClassName="active">HARRIS REED</Link>
         </li>
         <li>
-          <Link to="/project3">SUNDAY POSTAGE</Link>
+          <Link to="/project3" activeClassName="active">SUNDAY POSTAGE</Link>
         </li>
         <li>
-          <Link to="/project3">FRIENDS OF MINE</Link>
+          <Link to="/project3" activeClassName="active">FRIENDS OF MINE</Link>
         </li>
         <li>
-          <Link to="/project3">EXPERT ADMISSIONS</Link>
+          <Link to="/project3" activeClassName="active">EXPERT ADMISSIONS</Link>
         </li>
       </ul>
       <br />
       <h4>INDEPENDENT WORK</h4>
       <ul>
         <li>
-          <Link to="/project3">MOTION</Link>
+          <Link to="/project3" activeClassName="active">MOTION</Link>
         </li>
         <li>
-          <Link to="/project3">BOOKS</Link>
+          <Link to="/project3" activeClassName="active">BOOKS</Link>
         </li>
         <li>
-          <Link to="/project3">POSTERS</Link>
+          <Link to="/project3" activeClassName="active">POSTERS</Link>
         </li>
         <li>
-          <Link to="/project3">TEXTILES</Link>
+          <Link to="/project3" activeClassName="active">TEXTILES</Link>
         </li>
       </ul>
     </nav>

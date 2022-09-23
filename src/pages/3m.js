@@ -11,7 +11,7 @@ const NotFoundPage = ({data}) => (
     <Seo title="Indeed" />
     <Navbar />
     <div className="Projects">
-      <h4 className="u-underline">3M</h4>
+      <h4>3M</h4>
       <ul className="projectDetails">
         <li>
           Graphic design, animation, video editing.

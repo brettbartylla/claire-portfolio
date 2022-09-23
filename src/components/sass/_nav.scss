@@ -39,6 +39,13 @@ nav {
           }
         }
       }
+      a.active {
+        color: #000;
+        &:after {
+          transform: scaleX(1);
+          transform-origin: left;
+        }
+      }
     }
   }
 }
