@@ -12,30 +12,17 @@ const NotFoundPage = ({data}) => (
     <Seo title="Projects | MBG" />
     <Header />
     <Navbar />
-    <div className="Projects darkBg p-t-30 p-l-30 p-r-30">
+    <div className="Projects darkBg p-t-30 p-l-30 p-r-30 p-b-15">
       <Img 
         fluid={data.mbg_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="MBG Project 1"
       />
-      <ul className="projectDetails">
-        <li>
-          Campaign Marketing Video
-        </li>
-        <li>
-          Graphic design, animation, video editing, copywriting
-        </li>
-        <li>
-          New hiring feature marketing video for Indeed
-        </li>
-      </ul>
     </div>
   </Layout>
 )
 
 export default NotFoundPage
-
-
 
 // image queries
 export const query = graphql`

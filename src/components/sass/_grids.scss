@@ -39,8 +39,15 @@ main {
 nav {
   grid-area: left-sidebar;
 }
-
 .Projects {
   grid-area: main;
   margin-top: 60px;
+}
+
+//project description grid
+.desc-container {
+  width: 100%; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  grid-gap: 1em;
 }

@@ -14,48 +14,56 @@ const NotFoundPage = ({data}) => (
     <Navbar />
     <div className="Projects">
       <h4>3M</h4>
-      <ul className="projectDetails m-b-15">
-        <li>
-          Graphic design, animation, video editing.
-        </li>
-        <li>
-          Informal video on the setup of the 3M Encapsulated System Holder <a href="3m.com">Link to Video</a>
-        </li>
-      </ul>
-      <div className="iframe-container">
-      <iframe
-          src="https://player.cloudinary.com/embed/?public_id=https%3A%2F%2Fres.cloudinary.com%2Fdfqto9ozl%2Fvideo%2Fupload%2Fv1663953292%2Fclaire-portfolio%2F3M%2Fmmm_project_01.mp4&cloud_name=dfqto9ozl&player%5Bfluid%5D=true&player%5Bcontrols%5D=true&player%5Bmuted%5D=true&player%5BshowJumpControls%5D=false&player%5BposterOptions%5D%5Btransformation%5D%5BstartOffset%5D=29&player%5Bautoplay%5D=true&source%5BsourceTypes%5D%5B0%5D=mp4"
-          width="640"
-          height="480"
-          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-          allowfullscreen
-          frameborder="0"
-        ></iframe>
+      <div className="desc-container m-b-15">
+        <article>
+          <p>
+            Graphic design, animation, 
+            <br />
+            video editing.
+          </p>
+        </article>
+        <article>
+          <p>Encapsulated System Holder Informal video</p>
+        </article>
       </div>
+      <iframe
+        src="https://player.cloudinary.com/embed/?public_id=https%3A%2F%2Fres.cloudinary.com%2Fdfqto9ozl%2Fvideo%2Fupload%2Fv1663953292%2Fclaire-portfolio%2F3M%2Fmmm_project_01.mp4&cloud_name=dfqto9ozl&player%5Bfluid%5D=true&player%5Bcontrols%5D=true&player%5Bmuted%5D=true&player%5BshowJumpControls%5D=false&player%5BposterOptions%5D%5Btransformation%5D%5BstartOffset%5D=29&player%5Bautoplay%5D=true&source%5BsourceTypes%5D%5B0%5D=mp4"
+        width="640"
+        height="480"
+        allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+        allowfullscreen
+        frameborder="0"
+      ></iframe>
+    
       <Img 
         fluid={data.MMM_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="3M Project 1"
         className="m-b-50"
       />
-      <ul className="projectDetails p-t-20 m-b-15">
-        <li>
-          Campaign Marketing Video
-        </li>
-        <li>
-          Graphic design, animation, video editing, copywriting
-        </li>
-        <li>
-          New hiring feature marketing video for Indeed
-        </li>
-      </ul>
+
+      <div className="desc-container m-b-15">
+        <article>
+          <p>
+            Campaign Marketing Video 
+          </p>
+        </article>
+        <article>
+          <p>
+            Graphic design, animation, video editing, copywriting
+          </p>
+        </article>
+        <article>
+          <p>
+            New hiring feature marketing video for Indeed
+          </p>
+        </article>
+      </div>
       <Img 
         fluid={data.MMM_2GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="3m Project 2"
       />
-
-
     </div>
   </Layout>
 )

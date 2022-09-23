@@ -1,14 +1,11 @@
 @import "./variables.scss";
 
 .Projects {
-  ul {
-    li {
+  article {
+    p {
       display: inline;
       padding-right: 30px;;
       font-size: $font-size-secondary;
     }
   }
-  // .projectDetails {
-  //   margin-bottom: 15px;
-  // }
 }

@@ -14,34 +14,47 @@ const NotFoundPage = ({data}) => (
     <Navbar />
     <div className="Projects">
       <h4>INDEED</h4>
-      <ul className="projectDetails m-b-15">
-        <li>
+      <div className="desc-container  m-b-15">
+        <article>
+          <p>
           Campaign Marketing Video
-        </li>
-        <li>
+          </p>
+        </article>
+        <article>
+          <p>
           Graphic design, animation, video editing, copywriting
-        </li>
-        <li>
-          New hiring feature marketing video for Indeed
-        </li>
-      </ul>
+          </p>
+        </article>
+        <article>
+          <p>
+            New hiring feature marketing video for Indeed
+          </p>
+        </article>
+      </div>
+
       <Img 
         fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="Indeed Project 1"
         className="m-b-50"
       />
-      <ul className="projectDetails p-t-20 m-b-15">
-        <li>
-          Campaign Marketing Video
-        </li>
-        <li>
-          Graphic design, animation, video editing, copywriting
-        </li>
-        <li>
-          New hiring feature marketing video for Indeed
-        </li>
-      </ul>
+      <div className="desc-container m-b-15">
+        <article>
+          <p>
+            Campaign Marketing Video 
+          </p>
+        </article>
+        <article>
+          <p>
+            Graphic design, animation, video editing, copywriting
+          </p>
+        </article>
+        <article>
+          <p>
+            New hiring feature marketing video for Indeed
+          </p>
+        </article>
+      </div>
       <Img 
         fluid={data.indeed_2GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
