@@ -2,7 +2,6 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 import Header from "../components/Header"
 import Navbar from "../components/Navbar"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Img from 'gatsby-image'
@@ -34,14 +33,12 @@ const NotFoundPage = ({data}) => (
         allowfullscreen
         frameborder="0"
       ></iframe>
-    
       <Img 
         fluid={data.MMM_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="3M Project 1"
         className="m-b-50"
       />
-
       <div className="desc-container m-b-15">
         <article>
           <p>
@@ -69,8 +66,6 @@ const NotFoundPage = ({data}) => (
 )
 
 export default NotFoundPage
-
-
 
 // image queries
 export const query = graphql`

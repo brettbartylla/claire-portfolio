@@ -2,7 +2,6 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Header from "../components/Header"
 import Navbar from "../components/Navbar"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Img from 'gatsby-image'
@@ -31,7 +30,6 @@ const NotFoundPage = ({data}) => (
           </p>
         </article>
       </div>
-
       <Img 
         fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
@@ -60,15 +58,11 @@ const NotFoundPage = ({data}) => (
         imgStyle={{ objectFit: 'contain' }}
         alt="Indeed Project 1"
       />
-
-
     </div>
   </Layout>
 )
 
 export default NotFoundPage
-
-
 
 // image queries
 export const query = graphql`

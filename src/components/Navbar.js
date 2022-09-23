@@ -2,14 +2,6 @@ import { Link } from 'gatsby'
 import React from 'react'
 import "./sass/styles.scss"
 
-// class Navbar extends Component {
-//   componentDidMount() {
-//     //add custom js for stickynav here
-//     console.log('it worked!');
-//   }
-  
-// }
-
 export default function Navbar() {
   return (
     <nav id="nav">
