@@ -13,7 +13,7 @@ const NotFoundPage = ({data}) => (
     <Navbar />
     <div className="Projects">
       <h4>INDEED</h4>
-      <div className="desc-container  m-b-15">
+      <div className="desc-container m-b-15">
         <article>
           <p>
           Campaign Marketing Video
@@ -30,12 +30,46 @@ const NotFoundPage = ({data}) => (
           </p>
         </article>
       </div>
-      <Img 
-        fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="Indeed Project 1"
-        className="m-b-50"
-      />
+
+      <div className="grid-2x2">
+          <Img 
+            fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
+            imgStyle={{ objectFit: 'contain' }}
+            alt="Indeed Project 1"
+            className="m-b-50"
+          />
+        <Img 
+          fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="Indeed Project 1"
+          className="m-b-50"
+        />
+                <Img 
+          fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="Indeed Project 1"
+          className="m-b-50"
+        />
+                <Img 
+          fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="Indeed Project 1"
+          className="m-b-50"
+        />
+                <Img 
+          fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="Indeed Project 1"
+          className="m-b-50"
+        />
+                <Img 
+          fluid={data.indeed_1GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="Indeed Project 1"
+          className="m-b-50"
+        />
+      </div>
+      
       <div className="desc-container m-b-15">
         <article>
           <p>
@@ -67,7 +101,7 @@ export default NotFoundPage
 // image queries
 export const query = graphql`
   query {
-    indeed_1GatsbyImage: file(relativePath: {eq: "projects/indeed/indeed_01.webp"}) {
+    indeed_1GatsbyImage: file(relativePath: {eq: "projects/indeed/indeed_01.png"}) {
       childImageSharp {
         fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
