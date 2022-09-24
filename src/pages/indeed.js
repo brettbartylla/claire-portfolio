@@ -32,10 +32,10 @@ const NotFoundPage = ({data}) => (
       </div>
 
       <div className="grid-2x2">
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_01.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_03.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_02.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_10.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_01.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_03.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_02.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_10.gif" alt="" />
       </div>
       <div className="desc-container m-t-45 m-b-15">
         <article>
@@ -56,10 +56,10 @@ const NotFoundPage = ({data}) => (
       </div>
 
       <div className="grid-2x2">
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_04.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_05.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_06.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_13.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_04.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_05.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_06.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_13.gif" alt="" />
       </div>
 
       <div className="desc-container m-t-45 m-b-15">
@@ -80,10 +80,10 @@ const NotFoundPage = ({data}) => (
         </article>
       </div>
       <div className="grid-2x2 m-b-30">
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_08.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_07.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_09.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_12.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_08.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_07.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_09.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_12.gif" alt="" />
       </div>
     </div>
   </Layout>
