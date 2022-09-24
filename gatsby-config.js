@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `its meeee`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `claire loes portfolio site.`,
+    author: `brettbartylla`,
+    siteUrl: `https://claireloes.com/`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -54,5 +54,15 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.claireloes.com',
+        sitemap: 'https://www.claireloes.com/sitemap.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    }
+
   ],
 }
