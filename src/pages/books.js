@@ -12,42 +12,26 @@ const NotFoundPage = ({data}) => (
     <Header />
     <Navbar />
     <div className="Projects">
-      <h4>Posters</h4>
+      <h4>BOOKS</h4>
       <div className="desc-container m-b-15">
         <article>
           <p>
-            Graphic design, animation, 
-            <br />
-            video editing.
+            The Lifestyles of Fungi
           </p>
         </article>
         <article>
-          <p>Encapsulated System Holder Informal video</p>
+          <p>
+            Reference book about the kingdom of Fungi, with writing 2019 excerpted from the Encyclopedia of Mushrooms & Journey
+            to the Center of the Heart by Daniel Pinchbeck.
+          </p>
         </article>
       </div>
       <Img 
         fluid={data.book_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="Fungi Book"
-        className="m-b-50"
+        alt="The Lifestyles of Fungi"
+        className="m-b-10"
       />
-      <div className="desc-container m-b-15">
-        <article>
-          <p>
-            Campaign Marketing Video 
-          </p>
-        </article>
-        <article>
-          <p>
-            Graphic design, animation, video editing, copywriting
-          </p>
-        </article>
-        <article>
-          <p>
-            New hiring feature marketing video for Indeed
-          </p>
-        </article>
-      </div>
       <Img 
         fluid={data.book_2GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
@@ -57,47 +41,25 @@ const NotFoundPage = ({data}) => (
       <div className="desc-container m-b-15">
         <article>
           <p>
-            Campaign Marketing Video 
+            Ascii Alphabet 
           </p>
         </article>
         <article>
           <p>
-            Graphic design, animation, video editing, copywriting
-          </p>
-        </article>
-        <article>
-          <p>
-            New hiring feature marketing video for Indeed
+            Alphabet book made by hand with an analog typewriter.
           </p>
         </article>
       </div>
       <Img 
         fluid={data.book_3GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="3M Project 1"
-        className="m-b-50"
+        alt="Ascii Alphabet Book"
+        className="m-b-10"
       />
-      <div className="desc-container m-b-15">
-        <article>
-          <p>
-            Campaign Marketing Video 
-          </p>
-        </article>
-        <article>
-          <p>
-            Graphic design, animation, video editing, copywriting
-          </p>
-        </article>
-        <article>
-          <p>
-            New hiring feature marketing video for Indeed
-          </p>
-        </article>
-      </div>
       <Img 
         fluid={data.book_4GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="3M Project 1"
+        alt="Ascii Alphabet Book"
         className="m-b-50"
       />
     </div>

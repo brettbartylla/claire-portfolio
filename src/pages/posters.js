@@ -12,69 +12,23 @@ const NotFoundPage = ({data}) => (
     <Header />
     <Navbar />
     <div className="Projects">
-      <h4>Posters</h4>
-      <div className="desc-container m-b-15">
-        <article>
-          <p>
-            Graphic design, animation, 
-            <br />
-            video editing.
-          </p>
-        </article>
-        <article>
-          <p>Encapsulated System Holder Informal video</p>
-        </article>
-      </div>
+      <h4>POSTERS</h4>
       <Img 
         fluid={data.poster_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="3M Project 1"
+        alt="Posters"
         className="m-b-50"
       />
-      <div className="desc-container m-b-15">
-        <article>
-          <p>
-            Campaign Marketing Video 
-          </p>
-        </article>
-        <article>
-          <p>
-            Graphic design, animation, video editing, copywriting
-          </p>
-        </article>
-        <article>
-          <p>
-            New hiring feature marketing video for Indeed
-          </p>
-        </article>
-      </div>
       <Img 
         fluid={data.poster_2GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="3M Project 1"
+        alt="Posters"
         className="m-b-50"
       />
-      <div className="desc-container m-b-15">
-        <article>
-          <p>
-            Campaign Marketing Video 
-          </p>
-        </article>
-        <article>
-          <p>
-            Graphic design, animation, video editing, copywriting
-          </p>
-        </article>
-        <article>
-          <p>
-            New hiring feature marketing video for Indeed
-          </p>
-        </article>
-      </div>
       <Img 
         fluid={data.poster_3GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="3M Project 1"
+        alt="Posters"
         className="m-b-50"
       />
     </div>

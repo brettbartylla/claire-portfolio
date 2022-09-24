@@ -1,12 +1,12 @@
 @font-face {
   font-family: NeueMachinaRegular;
   src: url("/fonts/PPNeueMachina-PlainRegular.otf");
-  font-display: swap;
+  font-display: fallback;
 }
 @font-face {
   font-family: NeueMachinaLight;
   src: url("/fonts/PPNeueMachina-PlainLight.otf");
-  font-display: swap;
+  font-display: fallback;
 }
 //colors
 $primary-color: null;
