@@ -3,7 +3,7 @@ module.exports = {
     title: `its meeee`,
     description: `claire loes portfolio site.`,
     author: `brettbartylla`,
-    siteUrl: `https://claireloes.com/`,
+    siteUrl: `https://632e5592e811f71508e4bc44--venerable-faun-515b70.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -54,12 +54,12 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.claireloes.com',
-        sitemap: 'https://www.claireloes.com/sitemap.xml',
+        host: 'https://632e5592e811f71508e4bc44--venerable-faun-515b70.netlify.app/m',
+        sitemap: 'https://632e5592e811f71508e4bc44--venerable-faun-515b70.netlify.app/sitemap.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     }
