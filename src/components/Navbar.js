@@ -38,7 +38,7 @@ export default function Navbar() {
           <Link to="/project3" activeClassName="active">MOTION</Link>
         </li>
         <li>
-          <Link to="/project3" activeClassName="active">BOOKS</Link>
+          <Link to="/books" activeClassName="active">BOOKS</Link>
         </li>
         <li>
           <Link to="/posters" activeClassName="active">POSTERS</Link>
