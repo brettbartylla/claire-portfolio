@@ -13,10 +13,10 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/3M" activeClassName="active">3M</Link>
+          <Link to="/3m" activeClassName="active">3M</Link>
         </li>
         <li>
-          <Link to="/MBG" activeClassName="active">MBG</Link>
+          <Link to="/mgb" activeClassName="active">MBG</Link>
         </li>
         <li>
           <Link to="/project3" activeClassName="active">HARRIS REED</Link>
