@@ -8,43 +8,43 @@ export default function Navbar() {
       <h4>COMMERCIAL WORK</h4>
       <ul>
         <li>
-          <Link to="/indeed" activeClassName="active">
+          <Link to="/projects/indeed" activeClassName="active">
             INDEED
           </Link>
         </li>
         <li>
-          <Link to="/3m" activeClassName="active">3M</Link>
+          <Link to="/projects/3m" activeClassName="active">3M</Link>
         </li>
         <li>
-          <Link to="/mgb" activeClassName="active">MBG</Link>
+          <Link to="/projects/mgb" activeClassName="active">MBG</Link>
         </li>
         <li>
-          <Link to="/project3" activeClassName="active">HARRIS REED</Link>
+          <Link to="/projects/roge" activeClassName="active">ROGÊ</Link>
         </li>
         <li>
-          <Link to="/project3" activeClassName="active">SUNDAY POSTAGE</Link>
+          <Link to="/projects/harris-reed" activeClassName="active">HARRIS REED</Link>
         </li>
         <li>
-          <Link to="/project3" activeClassName="active">FRIENDS OF MINE</Link>
+          <Link to="/projects/sunday-postage" activeClassName="active">SUNDAY POSTAGE</Link>
         </li>
         <li>
-          <Link to="/project3" activeClassName="active">EXPERT ADMISSIONS</Link>
+          <Link to="/projects/friends-of-mine" activeClassName="active">FRIENDS OF MINE</Link>
+        </li>
+        <li>
+          <Link to="/projects/expert-admissions" activeClassName="active">EXPERT ADMISSIONS</Link>
         </li>
       </ul>
       <br />
       <h4>INDEPENDENT WORK</h4>
       <ul>
         <li>
-          <Link to="/project3" activeClassName="active">MOTION</Link>
+          <Link to="/projects/motion" activeClassName="active">MOTION</Link>
         </li>
         <li>
-          <Link to="/books" activeClassName="active">BOOKS</Link>
+          <Link to="/projects/books" activeClassName="active">BOOKS</Link>
         </li>
         <li>
-          <Link to="/posters" activeClassName="active">POSTERS</Link>
-        </li>
-        <li>
-          <Link to="/project3" activeClassName="active">TEXTILES</Link>
+          <Link to="/projects/posters" activeClassName="active">POSTERS</Link>
         </li>
       </ul>
     </nav>
