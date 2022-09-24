@@ -41,7 +41,7 @@ export default function Navbar() {
           <Link to="/project3" activeClassName="active">BOOKS</Link>
         </li>
         <li>
-          <Link to="/project3" activeClassName="active">POSTERS</Link>
+          <Link to="/posters" activeClassName="active">POSTERS</Link>
         </li>
         <li>
           <Link to="/project3" activeClassName="active">TEXTILES</Link>
