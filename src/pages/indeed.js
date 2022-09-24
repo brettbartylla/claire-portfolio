@@ -59,17 +59,13 @@ const NotFoundPage = ({data}) => (
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_04.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_05.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_06.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_11.gif" alt="" />
-
-
-
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_05.gif" alt="" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_08.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_13.gif" alt="" />
       </div>
+
       <div className="desc-container m-t-45 m-b-15">
         <article>
           <p>
-            Help Center Campaigns video 
+            Help Center Campaigns video
           </p>
         </article>
         <article>
@@ -79,13 +75,15 @@ const NotFoundPage = ({data}) => (
         </article>
         <article>
           <p>
-
+            
           </p>
         </article>
       </div>
-      <div className="grid-2x2">
+      <div className="grid-2x2 m-b-30">
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_08.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_07.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_09.gif" alt="" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_12.gif" alt="" />
       </div>
     </div>
   </Layout>
