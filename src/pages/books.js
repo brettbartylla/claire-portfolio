@@ -13,7 +13,7 @@ const NotFoundPage = ({data}) => (
     <Navbar />
     <div className="Projects">
       <h4>BOOKS</h4>
-      <div className="desc-container m-b-15">
+      <div className="desc-container-wide m-b-15">
         <article>
           <p>
             The Lifestyles of Fungi
