@@ -32,7 +32,7 @@ const NotFoundPage = ({data}) => (
             height="480"
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
             allowfullscreen
-            frameborder="0"
+            frameBorder="0"
           ></iframe>
       </div>
       <Img 
