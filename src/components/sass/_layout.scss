@@ -42,3 +42,14 @@ header {
 .negMarg {
   margin-top: -3%;
 }
+
+//temporary mobile styles
+@media only screen and (max-width: 850px) {
+  nav,main {
+    visibility: hidden;
+  }
+  body::before {
+    content: "Mobile site under construction, please view on desktop :)";
+    font-family: $primary-font;
+  }
+}
