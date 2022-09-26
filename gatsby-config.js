@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `its meeee`,
+    title: `Claire Loes Design`,
     description: `claire loes portfolio site.`,
     author: `brettbartylla`,
     siteUrl: `https://632e5592e811f71508e4bc44--venerable-faun-515b70.netlify.app/`,

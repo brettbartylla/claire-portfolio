@@ -8,7 +8,7 @@ import Img from 'gatsby-image'
 
 const NotFoundPage = ({data}) => (
   <Layout>
-    <Seo title="Indeed" />
+    <Seo title="Projects | 3M" />
     <Header />
     <Navbar />
     <div className="Projects">
