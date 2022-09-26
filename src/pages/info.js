@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 const IndexPage = ({data}) => (
   <Layout>
-    <Seo title="Info |" />
+    <Seo title="Info" />
     <Header />
     <Navbar />
     <div className="Projects info">

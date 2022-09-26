@@ -57,5 +57,35 @@ nav {
   }
 }
 
-
+.info-link {
+  display: block;
+  text-decoration: none;
+  transition: 0.4s;
+  &:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    top: 69%;
+    left: 0;
+    background: #000;
+    transition: transform 0.4s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  &:hover {
+    color: #000;
+    &:after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+}
+.info-link.active {
+  color: #000;
+  &:after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
 
