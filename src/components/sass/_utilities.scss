@@ -39,6 +39,12 @@
   color:#fff;
 }
 
+.link {
+  color: #0000EE;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 //padding/margin
 $max: 50;
 $offset: 5;
