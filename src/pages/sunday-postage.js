@@ -8,18 +8,56 @@ import Img from 'gatsby-image'
 
 const NotFoundPage = ({data}) => (
   <Layout>
-    <Seo title="Projects | SUNDAY POSTAGE" />
+    <Seo title="Projects | Sunday Postage" />
     <Header />
     <Navbar />
     <div className="Projects">
-      <h4>SUNDAY POSTAGE</h4>
-      {/* <Img 
-        fluid={data.mbg_1GatsbyImage.childImageSharp.fluid}
+      <h4>Sunday Postage</h4>
+      <div className="desc-container-wide m-b-15">
+        <article>
+          <p>
+          Branding, print & apparel design
+          </p>
+        </article>
+        <article>
+          <p>
+            Designs using this system include apparel, patches, home products, tags, & assets for print and web use.
+          </p>
+        </article>
+      </div>
+      <Img 
+        fluid={data.spv_2GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
-        alt="ROGÊ Project 1"
-      /> */}
+        alt="Sunday Postage"
+      />
+      <Img 
+        fluid={data.spv_1GatsbyImage.childImageSharp.fluid}
+        imgStyle={{ objectFit: 'contain' }}
+        alt="Sunday Postage"
+        className="negMarg"
+      />
     </div>
   </Layout>
 )
 
 export default NotFoundPage
+
+// image queries
+export const query = graphql`
+  query {
+    spv_1GatsbyImage: file(relativePath: {eq: "projects/sundaypostage/spv_01.webp"}) {
+      childImageSharp {
+        fluid(maxWidth: 2000, quality: 90) {
+        ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    spv_2GatsbyImage: file(relativePath: {eq: "projects/sundaypostage/spv_02.webp"}) {
+      childImageSharp {
+        fluid(maxWidth: 2000, quality: 90) {
+        ...GatsbyImageSharpFluid
+        }
+      }
+    },
+  }
+`
