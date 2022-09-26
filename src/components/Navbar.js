@@ -30,9 +30,9 @@ export default function Navbar() {
         <li>
           <Link to="/friends-of-mine" activeClassName="active">FRIENDS OF MINE</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/expert-admissions" activeClassName="active">EXPERT ADMISSIONS</Link>
-        </li>
+        </li> */}
       </ul>
       <br />
       <h4>INDEPENDENT WORK</h4>
