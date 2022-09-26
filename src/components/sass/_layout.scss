@@ -30,6 +30,17 @@ li {
   padding-left: 25px;
 }
 
+.info {
+  max-width: 70ch;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.info-link {
+    position: absolute;
+    right: 24px;
+    top: 19px;
+}
+
 header {
   background-color: #FFA959;
   border-bottom: 1px solid black;
