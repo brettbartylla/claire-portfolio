@@ -12,6 +12,19 @@ const NotFoundPage = ({data}) => (
     <Header />
     <Navbar />
     <div className="Projects darkBg p-t-30 p-l-30 p-r-30 p-b-15">
+    <h4 className="txt-white">Made by Garance</h4>
+      <div className="desc-container-wide m-b-15 txt-white">
+        <article>
+          <p>
+            Branding & print design
+          </p>
+        </article>
+        <article>
+          <p>
+            Logo design and business cards. Custom table menu with design options for clients
+          </p>
+        </article>
+      </div>
       <Img 
         fluid={data.mbg_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
