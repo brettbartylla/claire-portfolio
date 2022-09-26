@@ -21,9 +21,9 @@ export default function Navbar() {
         <li>
           <Link to="/roge" activeClassName="active">ROGÊ</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/harris-reed" activeClassName="active">HARRIS REED</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/sunday-postage" activeClassName="active">SUNDAY POSTAGE</Link>
         </li>
