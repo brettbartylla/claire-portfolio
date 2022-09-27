@@ -25,6 +25,12 @@ const IndexPage = ({data}) => (
         <p>
             This fall, Claire is knitting and making videos in their spare time.
         </p>
+        <h4 className="txt-underline p-t-40">CONTACT</h4>
+        <p>
+          loes.claire@gmail.com
+          <br />
+          <a href="https://instagram.com/clairelsss" target="_blank" rel="noreferrer">@clairelsss</a>
+        </p>
     </div>
   </Layout>
 )
