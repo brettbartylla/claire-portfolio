@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 import Layout from "../components/layout"
@@ -31,8 +31,9 @@ const NotFoundPage = ({data}) => (
             width="640"
             height="480"
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-            allowfullscreen
+            allowFullscreen
             frameBorder="0"
+            title="Encapsulated System Holder Informal video"
           ></iframe>
       </div>
       <Img 

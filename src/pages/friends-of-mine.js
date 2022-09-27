@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 import Layout from "../components/layout"
@@ -25,7 +25,7 @@ const NotFoundPage = ({data}) => (
           </p>
         </article>
       </div>
-      <a href="http://www.friendsofmine.shop" target="_blank">
+      <a href="http://www.friendsofmine.shop" target="_blank" rel="noreferrer">
       <Img 
           fluid={data.fom_1GatsbyImage.childImageSharp.fluid}
           imgStyle={{ objectFit: 'contain' }}
