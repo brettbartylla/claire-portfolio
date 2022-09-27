@@ -21,7 +21,7 @@ const NotFoundPage = ({data}) => (
         </article>
         <article>
           <p>
-            Reference book about the kingdom of Fungi, with writing 2019 excerpted from the Encyclopedia of Mushrooms & Journey
+            Reference book about the kingdom of fungi, with writing 2019 excerpted from the Encyclopedia of Mushrooms & Journey
             to the Center of the Heart by Daniel Pinchbeck.
           </p>
         </article>
