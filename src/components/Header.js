@@ -7,7 +7,7 @@ import { useEffect } from "react";
 export default function Header() {
   return (
     <header>
-      <Link to="/info" className="logo-link" activeClassName="active">
+      <Link to="/" className="logo-link" activeClassName="active">
         <h4 className="logo">CLAIRE LOES</h4>
       </Link>
       {/* <h4>INFO</h4> */}
