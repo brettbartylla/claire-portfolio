@@ -31,7 +31,7 @@ const NotFoundPage = ({data}) => (
             width="640"
             height="480"
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-            allowFullscreen
+            allowFullScreen
             frameBorder="0"
             title="Encapsulated System Holder Informal video"
           ></iframe>

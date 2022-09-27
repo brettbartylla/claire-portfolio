@@ -29,7 +29,7 @@ const NotFoundPage = ({data}) => (
           width="640"
           height="480"
           allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
           frameBorder="0"
           title="Blox font"
         ></iframe>
@@ -51,7 +51,7 @@ const NotFoundPage = ({data}) => (
           width="640"
           height="480"
           allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
           frameBorder="0"
           title="Mango drive"
         ></iframe>
@@ -73,7 +73,7 @@ const NotFoundPage = ({data}) => (
         width="640"
         height="480"
         allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-        allowFullscreen
+        allowFullScreen
         frameBorder="0"
         tite="So nice"
       ></iframe>
