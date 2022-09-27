@@ -32,10 +32,6 @@ const NotFoundPage = ({data}) => (
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1664222745/claire-portfolio/rog%C3%AA/pravida_gif_02.gif" alt="Music video gif" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1664222355/claire-portfolio/rog%C3%AA/pravida_gif_04.gif" alt="Music video gif" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1664222352/claire-portfolio/rog%C3%AA/pravida_gif_03.gif" alt="Music video gif" />
-      </div>
-      <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1664222745/claire-portfolio/rog%C3%AA/pravida_gif_07.gif" alt="Music video gif" className="p-t-15 p-b-10" />
-
-      <div className="grid-2x2">
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1664222351/claire-portfolio/rog%C3%AA/pravida_gif_05.gif" alt="Music video gif" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1664222746/claire-portfolio/rog%C3%AA/pravida_gif_06.gif" alt="Music video gif" />
       </div>

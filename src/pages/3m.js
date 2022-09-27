@@ -37,7 +37,7 @@ const NotFoundPage = ({data}) => (
           ></iframe>
       </div>
 
-      <div className="grid-2x2">
+      <div className="grid-2x2 m-t-10">
       <Img 
         fluid={data.MMM_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
@@ -79,7 +79,7 @@ const NotFoundPage = ({data}) => (
           frameborder="0"
         ></iframe>
       </div>
-      <div className="grid-2x2">
+      <div className="grid-2x2 m-t-10">
       <Img 
         fluid={data.MMM_5GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
