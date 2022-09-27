@@ -11,7 +11,7 @@ const NotFoundPage = ({data}) => (
     <Seo title="Projects | MBG" />
     <Header />
     <Navbar />
-    <div className="Projects darkBg p-t-30 p-l-30 p-r-30 p-b-15">
+    <div className="Projects darkBg p-t-30 p-l-30 p-r-30 p-b-15 m-b-30">
     <h4 className="txt-white">Made by Garance</h4>
       <div className="desc-container-wide m-b-15 txt-white">
         <article>

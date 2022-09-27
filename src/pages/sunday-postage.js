@@ -11,7 +11,7 @@ const NotFoundPage = ({data}) => (
     <Seo title="Projects | Sunday Postage" />
     <Header />
     <Navbar />
-    <div className="Projects">
+    <div className="Projects p-b-40">
       <h4>Sunday Postage</h4>
       <div className="desc-container-wide m-b-15">
         <article>

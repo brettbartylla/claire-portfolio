@@ -9,7 +9,7 @@ const NotFoundPage = ({data}) => (
     <Seo title="Projects | Motion" />
     <Header />
     <Navbar />
-    <div className="Projects">
+    <div className="Projects p-b-20">
       <h4>MOTION</h4>
       <div className="fullWidthVideo">
         <div className="desc-container-wide m-b-15">
@@ -77,7 +77,6 @@ const NotFoundPage = ({data}) => (
         frameBorder="0"
         tite="So nice"
       ></iframe>
-
       </div>
     </div>
   </Layout>
