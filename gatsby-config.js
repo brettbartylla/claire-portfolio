@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Claire Loes Design`,
+    title: `Claire Loes`,
     description: `claire loes portfolio site.`,
     author: `brettbartylla`,
-    siteUrl: `https://632e5592e811f71508e4bc44--venerable-faun-515b70.netlify.app/`,
+    siteUrl: `https://www.claireloes.design/`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -58,8 +58,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://632e5592e811f71508e4bc44--venerable-faun-515b70.netlify.app/m',
-        sitemap: 'https://632e5592e811f71508e4bc44--venerable-faun-515b70.netlify.app/sitemap.xml',
+        host: 'https://www.claireloes.design',
+        sitemap: 'https://www.claireloes.design/sitemap.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     }
