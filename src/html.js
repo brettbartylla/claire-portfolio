@@ -22,6 +22,22 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </body>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+
+            setTimeout(function(){
+            const navClick = document.getElementById('#nav');
+            console.log('++++++++loaded+++++++);
+            
+            navClick.addEventListener('click', function () {
+              console.log('element clicked');
+              navLink.classList.remove("navLink");
+            });
+          }, 2000);
+        `
+        }}
+      />
     </html>
   )
 }
