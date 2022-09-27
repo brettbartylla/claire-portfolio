@@ -9,7 +9,7 @@ import { withPrefix } from "gatsby"
 
 const IndexPage = ({data}) => (
   <Layout>
-    <Seo title="Info" />
+    <Seo title="Home" />
     <Header />
     <Navbar />
     <div className="Projects info">
