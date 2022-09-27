@@ -12,7 +12,7 @@ const NotFoundPage = ({data}) => (
     <Seo title="Projects | Rogê" />
     <Header />
     <Navbar />
-    <div className="Projects">
+    <div className="Projects m-b-30">
       <h4>ROGÊ</h4>
       <div className="desc-container m-b-15">
         <article>
