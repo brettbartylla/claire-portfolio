@@ -16,9 +16,11 @@ const NotFoundPage = ({data}) => (
       <h4>ROGÊ</h4>
       <div className="desc-container m-b-15">
         <article>
+        <a href="https://www.youtube.com/watch?v=uP9aO0Vhmrw" target="_blank" rel="noreferrer">
           <p>
             Pra Vida Lyric Video
           </p>
+        </a>
         </article>
         <article>
           <p>
