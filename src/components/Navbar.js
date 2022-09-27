@@ -8,7 +8,7 @@ export default function Navbar() {
       <h4>COMMERCIAL WORK</h4>
       <ul>
         <li>
-          <Link to="/indeed" activeClassName="active" className='loadNavLink'>
+          <Link to="/indeed" activeClassName="active" id='loadNavLink' className=''>
             INDEED
           </Link>
         </li>

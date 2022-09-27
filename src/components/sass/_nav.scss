@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 h4 {
-    margin: 0 0 8px 0;
+  margin: 0 0 8px 0;
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
     li {
       padding-bottom:10px;
       padding-left: 15px;
-      a {
+      a:not(.loadNavLink-active) {
         position: relative;
         display: block;
         text-decoration: none;
@@ -57,35 +57,47 @@ nav {
   }
 }
 
-.info-link {
-  display: block;
-  text-decoration: none;
-  transition: 0.4s;
-  &:after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 1px;
-    top: 69%;
-    left: 0;
-    background: #000;
-    transition: transform 0.4s;
-    transform: scaleX(0);
-    transform-origin: right;
-  }
-  &:hover {
-    color: #000;
-    &:after {
-      transform: scaleX(1);
-      transform-origin: left;
-    }
-  }
-}
-.loadNavLink, .info-link.active {
-  color: #000;
-  &:after {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-}
 
+// .logo-link {
+//   display: block;
+//   text-decoration: none;
+//   transition: 0.4s;
+//   &:after {
+//     position: absolute;
+//     content: "";
+//     width: 8.5%;
+//     height: 1px;
+//     top: 83%;
+//     left: 25px;
+//     background: #000;
+//     transition: transform 0.4s;
+//     transform: scaleX(0);
+//     transform-origin: right;
+//   }
+//   &:hover {
+//     color: #000;
+//     &:after {
+//       transform: scaleX(1);
+//       transform-origin: left;
+//     }
+//   }
+// }
+
+
+// .loadNavLink-active {
+//   position: relative;
+//   display: block;
+//   text-decoration: none;
+//   &:after {
+//     position: absolute;
+//     content: "";
+//     width: 100%;
+//     height: 1px;
+//     top: 100%;
+//     left: 0;
+//     background: #000;
+//   }
+// }
+// .loadNavLink-active, .info-link.active {
+//   color: #000;
+// }
