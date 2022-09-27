@@ -15,9 +15,11 @@ const NotFoundPage = ({data}) => (
       <h4>INDEED</h4>
       <div className="desc-container m-b-15">
         <article>
+        <a href="https://vimeo.com/manage/videos/752607527" target="_blank" rel="noreferrer">
           <p>
-          Campaign Marketing Video
+            Campaign Marketing Video
           </p>
+        </a>
         </article>
         <article>
           <p>
@@ -39,18 +41,15 @@ const NotFoundPage = ({data}) => (
       </div>
       <div className="desc-container m-t-45 m-b-15">
         <article>
+        <a href="https://vimeo.com/754332071" target="_blank" rel="noreferrer">
           <p>
             Help Center Billing video
           </p>
+        </a>
         </article>
         <article>
           <p>
           Design, storyboarding, animation, video editing, copywriting
-          </p>
-        </article>
-        <article>
-          <p>
-            
           </p>
         </article>
       </div>
@@ -64,18 +63,15 @@ const NotFoundPage = ({data}) => (
 
       <div className="desc-container m-t-45 m-b-15">
         <article>
+        <a href="https://vimeo.com/754332367" target="_blank" rel="noreferrer">
           <p>
             Help Center Campaigns video
-          </p>
+          </p> 
+        </a>
         </article>
         <article>
           <p>
             Design, storyboarding, animation, video editing, copywriting.
-          </p>
-        </article>
-        <article>
-          <p>
-            
           </p>
         </article>
       </div>
