@@ -8,27 +8,27 @@ export default function Navbar() {
       <h4>COMMERCIAL WORK</h4>
       <ul>
         <li>
-          <Link to="/indeed" activeClassName="active">
+          <Link to="/indeed" activeClassName="active" className='loadNavLink'>
             INDEED
           </Link>
         </li>
         <li>
-          <Link to="/3m" activeClassName="active">3M</Link>
+          <Link to="/3m" activeClassName="active" className='navLink'>3M</Link>
         </li>
         <li>
-          <Link to="/mgb" activeClassName="active">MBG</Link>
+          <Link to="/mgb" activeClassName="active" className='navLink'>MBG</Link>
         </li>
         <li>
-          <Link to="/roge" activeClassName="active">ROGÊ</Link>
+          <Link to="/roge" activeClassName="active" className='navLink'>ROGÊ</Link>
         </li>
         {/* <li>
           <Link to="/harris-reed" activeClassName="active">HARRIS REED</Link>
         </li> */}
         <li>
-          <Link to="/sunday-postage" activeClassName="active">SUNDAY POSTAGE</Link>
+          <Link to="/sunday-postage" activeClassName="active" className='navLink'>SUNDAY POSTAGE</Link>
         </li>
         <li>
-          <Link to="/friends-of-mine" activeClassName="active">FRIENDS OF MINE</Link>
+          <Link to="/friends-of-mine" activeClassName="active" className='navLink'>FRIENDS OF MINE</Link>
         </li>
         {/* <li>
           <Link to="/expert-admissions" activeClassName="active">EXPERT ADMISSIONS</Link>
@@ -38,13 +38,13 @@ export default function Navbar() {
       <h4>INDEPENDENT WORK</h4>
       <ul>
         <li>
-          <Link to="/motion" activeClassName="active">MOTION</Link>
+          <Link to="/motion" activeClassName="active" className='navLink'>MOTION</Link>
         </li>
         <li>
-          <Link to="/books" activeClassName="active">BOOKS</Link>
+          <Link to="/books" activeClassName="active" className='navLink'>BOOKS</Link>
         </li>
         <li>
-          <Link to="/posters" activeClassName="active">POSTERS</Link>
+          <Link to="/posters" activeClassName="active" className='navLink'>POSTERS</Link>
         </li>
       </ul>
     </nav>

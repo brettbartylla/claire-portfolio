@@ -81,7 +81,7 @@ nav {
     }
   }
 }
-.info-link.active {
+.loadNavLink, .info-link.active {
   color: #000;
   &:after {
     transform: scaleX(1);
