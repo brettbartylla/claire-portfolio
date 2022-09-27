@@ -1,10 +1,9 @@
+setTimeout(function(){
+  const navClick = document.getElementById('#nav');
 
-// setTimeout(function(){
-//   var loadNavLink = document.getElementsByClassName('loadNavLink');
+  navClick.addEventListener('click', function () {
+    console.log('element clicked');
+    navLink.classList.remove("navLink");
+  });
 
-//   console.log("JS LOADED")
-//   document.querySelector('.navLink').addEventListener('click', event => {
-//     console.log("nav clicked")
-//     loadNavLink.classList.remove("loadNavLink");
-//   });
-// }, 2000);
+}, 2000);
