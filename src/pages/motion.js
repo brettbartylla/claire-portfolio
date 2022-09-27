@@ -64,7 +64,7 @@ const NotFoundPage = ({data}) => (
           </article>
           <article>
             <p>
-              Sound visualizer created in p5.js for Summer Samba by Astrrud Gilberto
+              Sound visualizer created in p5.js for Summer Samba by Astrud Gilberto
             </p>
           </article>
         </div>
