@@ -8,11 +8,11 @@ import { graphql } from 'gatsby'
 
 const NotFoundPage = ({data}) => (
   <Layout>
-    <Seo title="Projects | Indeed" />
+    <Seo title="Projects | Cousins" />
     {/* <Header /> */}
     <Navbar />
     <div className="Projects">
-      <h4>INDEED</h4>
+      <h4>Cousins</h4>
       <div className="desc-container m-b-15">
         <article>
         <a href="https://vimeo.com/manage/videos/752607527" target="_blank" rel="noreferrer">

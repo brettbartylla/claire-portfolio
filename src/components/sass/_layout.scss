@@ -10,12 +10,18 @@ html {
 }
 
 body {
-  background-color: #CAFFA0;
+  // background-color: #CAFFA0;
+  background-color: #FFF;
   margin: 0;
 }
 
+.intro {
+  padding-top: 0;
+  margin-top: 0;
+}
+
 main {
-  margin-top: 12px;
+  // margin-top: 12px;
 }
 
 ul {
@@ -41,7 +47,8 @@ li {
 }
 
 header {
-  background-color: #FFA959;
+  // background-color: #FFA959;
+  background-color: #FFF;
   border-bottom: 1px solid black;
   width: 100%;
   position: fixed;

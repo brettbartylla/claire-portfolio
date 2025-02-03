@@ -1,5 +1,5 @@
 import * as React from "react"
-import Header from "../components/Header"
+// import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const NotFoundPage = ({data}) => (
   <Layout>
     <Seo title="Projects | Motion" />
-    <Header />
+    {/* <Header /> */}
     <Navbar />
     <div className="Projects p-b-20">
       <h4>MOTION</h4>
