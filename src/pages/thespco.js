@@ -34,7 +34,7 @@ const NotFoundPage = ({data}) => (
       <div className="grid-2x2 m-t-10">
         <div className="fullWidthVideo">
           <iframe
-            src="https://res.cloudinary.com/dfqto9ozl/video/upload/v1738636080/wrapped_02_ahjm9n.mp4"
+            src="https://res.cloudinary.com/dfqto9ozl/video/upload/v1738636076/wrapped_01_brsw49.mp4"
             width="640"
             height="480"
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
@@ -42,10 +42,10 @@ const NotFoundPage = ({data}) => (
             frameBorder="0"
             title="Encapsulated System Holder Informal video"
             ></iframe>
-        </div>
+          </div>
         <div className="fullWidthVideo">
           <iframe
-            src="https://res.cloudinary.com/dfqto9ozl/video/upload/v1738636076/wrapped_01_brsw49.mp4"
+            src="https://res.cloudinary.com/dfqto9ozl/video/upload/v1738636080/wrapped_02_ahjm9n.mp4"
             width="640"
             height="480"
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
@@ -153,8 +153,9 @@ const NotFoundPage = ({data}) => (
       <div className="grid-2x2">
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738644264/email_04_fvyxts.gif" alt="email header gif" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738643536/email_03_uyouxz.gif" alt="email header gif" />
-        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738643529/email_05_eweygu.gif" alt="email header gif" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738681308/24.25_Banner_Concert-Reminder_Pink_rl7ubl.gif" alt="email header gif" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738645352/email_bf_update_imewu4.gif" alt="email header gif" />
+        
       </div>
 
       <div className="m-b-15 m-t-45 m-b-15">
