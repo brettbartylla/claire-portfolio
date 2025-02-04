@@ -11,116 +11,13 @@ const NotFoundPage = ({data}) => (
     <Seo title="Projects | The SPCO" />
     <Navbar />
     <div className="Projects m-b-30">
-      <h4>The SPCO</h4>
+      {/* <h4>The SPCO</h4> */}
 
-      <div className="desc-container m-b-15 m-t-45 m-b-15">
+      <div className="m-b-15 m-b-15">
       <article>
-        <a href="https://vimeo.com/manage/videos/752607527" target="_blank" rel="noreferrer">
-          <p>
-            SPCO Membership Brochure
-          </p>
-        </a>
-        </article>
-        <article>
-          <p>
-          Print design for The Saint Paul Chamber Orchestra's 2024.25 season.
-          </p>
-        </article>
-        <article>
-          <p>
-            Creative direction, branding, print design and production.
-          </p>
-        </article>
-      </div>
-
-      <div>
-        <Img 
-          fluid={data.spco_1GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="spco Project"
-        />
-      </div>
-      <div className="desc-container m-b-15 m-t-45 m-b-15">
-      <article>
-        <a href="https://vimeo.com/manage/videos/752607527" target="_blank" rel="noreferrer">
-          <p>
-            SPCO Renewal Brochure
-          </p>
-        </a>
-        </article>
-        <article>
-          <p>
-            Print design for The Saint Paul Chamber Orchestra's 2024.25 season.
-          </p>
-        </article>
-        <article>
-          <p>
-            Creative direction, branding, print design and production.
-          </p>
-        </article>
-      </div>
-      <div>
-        <Img 
-          fluid={data.spco_2GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="spco Project"
-        />
-      </div>
-
-
-      <div className="desc-container m-b-15 m-t-45 m-b-15">
-      <article>
-        <a href="https://vimeo.com/manage/videos/752607527" target="_blank" rel="noreferrer">
-          <p>
-            tbd
-          </p>
-        </a>
-        </article>
-        <article>
-          <p>
-          Print design for The Saint Paul Chamber Orchestra's 2024.25 season.
-          </p>
-        </article>
-        <article>
-          <p>
-            Creative direction, branding, print design and production.
-          </p>
-        </article>
-      </div>
-
-
-      <div className="grid-2x2">
-        <Img 
-          fluid={data.spco_3GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="spco Project"
-        />
-        <Img 
-          fluid={data.spco_4GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="spco Project"
-        />
-      </div>
-      <div className="grid-2x2">
-        <Img 
-          fluid={data.spco_3GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="spco Project"
-        />
-        <Img 
-          fluid={data.spco_4GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="spco Project"
-        />
-      </div>
-
-      <div className="desc-container m-b-15 m-t-45 m-b-15">
-      <article>
-        <a href="https://vimeo.com/manage/videos/752607527" target="_blank" rel="noreferrer">
-          <p>
+          <h3>
             SPCO Wrapped 2023
-          </p>
-        </a>
+          </h3>
         </article>
         <article>
           <p>
@@ -157,6 +54,137 @@ const NotFoundPage = ({data}) => (
             title="Encapsulated System Holder Informal video"
             ></iframe>
         </div>
+      </div>
+
+      <div className="m-b-15 m-t-15">
+        <article>
+          <h3>
+            Saint Paul Chamber Orchestra Membership Brochure
+          </h3>  
+          <p>
+            Print design for The Saint Paul Chamber Orchestra's 2024.25 season.
+          </p>      
+        </article>
+        <article>
+          <p>
+            Creative direction, branding, print design and production.
+          </p>
+        </article>
+      </div>
+      <div>
+        <Img 
+          fluid={data.spco_1GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="spco Project"
+        />
+      </div>
+
+      <div className=" m-t-45 m-b-15">
+        <article>
+          <a href="https://www.youtube.com/watch?v=Jpg831hknXs " target="_blank" rel="noreferrer">
+          <h3>65th Season Sizzle Video</h3>
+        </a>
+        </article>
+        <article>
+          <p>
+          Marketing video for the SPCO's 65th season.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, narrative development, motion design, video editing.
+          </p>
+        </article>
+      </div>
+      <div className="fullWidthVideo">
+        <iframe
+          src="https://player.cloudinary.com/embed/?public_id=spco_sizzle_hr7uuh&cloud_name=dfqto9ozl&player[posterOptions][transformation][start_offset]=2"
+          width="640"
+          height="480"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          allowFullScreen
+          frameBorder="0"
+          title="Encapsulated System Holder Informal video"
+          ></iframe>
+      </div>
+
+      <div className="m-b-15 m-t-45 m-b-15">
+      <article>
+          <h3>
+            SPCO Renewal Brochure
+          </h3>
+        </article>
+        <article>
+          <p>
+            Print design for The Saint Paul Chamber Orchestra's 2024.25 season.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, branding, print design and production.
+          </p>
+        </article>
+      </div>
+      <div>
+        <Img 
+          fluid={data.spco_2GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="spco Project"
+        />
+      </div>
+
+      <div className="m-b-15 m-t-45 m-b-15">
+      <article>
+          <h3>
+            Email Banners
+          </h3>
+        </article>
+        <article>
+          <p>
+            Various banners for email communications to audience members.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, motion design.
+          </p>
+        </article>
+      </div>
+      <div className="grid-2x2">
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738644264/email_04_fvyxts.gif" alt="email header gif" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738643536/email_03_uyouxz.gif" alt="email header gif" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738643529/email_05_eweygu.gif" alt="email header gif" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738645352/email_bf_update_imewu4.gif" alt="email header gif" />
+      </div>
+
+      <div className="m-b-15 m-t-45 m-b-15">
+      <article>
+          <h3>
+            Winter Postcards
+          </h3>
+        </article>
+        <article>
+          <p>
+            Marketing postcards for 24.25 Holiday and winter concerts.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, branding, print design.
+          </p>
+        </article>
+      </div>
+      <div className="grid-2x2">
+        <Img 
+          fluid={data.spco_3GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="spco Project"
+        />
+        <Img 
+          fluid={data.spco_4GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="spco Project"
+        />
       </div>
     </div>
   </Layout>

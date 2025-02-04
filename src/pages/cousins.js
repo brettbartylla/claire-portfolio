@@ -13,18 +13,20 @@ const NotFoundPage = ({data}) => (
     {/* <Header /> */}
     <Navbar />
     <div className="Projects m-b-30">
-      <h4>Cousins</h4>
-      <div className="desc-container-3x3 m-b-15">
+      <div className="m-b-15">
         <article>
-          <a href="https://vimeo.com/manage/videos/752607527" target="_blank" rel="noreferrer">
-            <p>
-              Language Island
-            </p>
+          <a href="https://www.youtube.com/watch?v=a5_FEsaWbqY " target="_blank" rel="noreferrer">
+            <h3>Language Island Pitch Deck</h3>
           </a>
         </article>
         <article>
           <p>
-            Graphic design, animation, video editing, copywriting
+            Advertising pitch for Cousins and Duolingo.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, presentation design.
           </p>
         </article>
       </div>
@@ -60,76 +62,85 @@ const NotFoundPage = ({data}) => (
           imgStyle={{ objectFit: 'contain' }}
           alt="language island Project"
         />
-        <Img 
-          fluid={data.lI_7GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="language island Project"
-        />
-        <Img 
-          fluid={data.lI_8GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="language island Project"
-        />
       </div>
-      <div className="desc-container-3x3 m-t-45 m-b-15">
+      <div className="m-t-45 m-b-15">
         <article>
-        <a href="https://vimeo.com/754332071" target="_blank" rel="noreferrer">
-          <p>
-            Ford Models
-          </p>
-        </a>
+          <h3>
+            Ford Models Pitch Deck
+          </h3>
         </article>
         <article>
           <p>
-          Design, storyboarding, animation, video editing, copywriting
+            Advertising pitch for Cousins and Ford Models.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, presentation design.
           </p>
         </article>
       </div>
+      <div className="bgColorBlack">
+        <div className="grid-1x3 p-x-15">
+          <div className="">
+            <Img 
+              fluid={data.fm_01GatsbyImage.childImageSharp.fluid}
+              imgStyle={{ objectFit: 'contain' }}
+              alt="language island Project"
+            />
+          </div>
+          <div className="">
+            <Img 
+              fluid={data.fm_02GatsbyImage.childImageSharp.fluid}
+              imgStyle={{ objectFit: 'contain' }}
+              alt="language island Project"
+            />
+          </div>
+          <div className="">
+            <Img 
+              fluid={data.fm_03GatsbyImage.childImageSharp.fluid}
+              imgStyle={{ objectFit: 'contain' }}
+              alt="language island Project"
+            />          
+          </div>
+          <div className="">
+            <Img 
+              fluid={data.fm_04GatsbyImage.childImageSharp.fluid}
+              imgStyle={{ objectFit: 'contain' }}
+              alt="language island Project"
+            />          
+          </div>
+          <div className="">
+            <Img 
+              fluid={data.fm_05GatsbyImage.childImageSharp.fluid}
+              imgStyle={{ objectFit: 'contain' }}
+              alt="language island Project"
+            />          
+          </div>
+          <div className="">
+            <Img 
+              fluid={data.fm_06GatsbyImage.childImageSharp.fluid}
+              imgStyle={{ objectFit: 'contain' }}
+              alt="language island Project"
+            />
+          </div>
+        </div>
+    </div>
 
-      <div className="grid-1x3">
-        <Img 
-          fluid={data.fm_01GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="language island Project"
-        />
-        <Img 
-          fluid={data.fm_02GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="language island Project"
-        />
-        <Img 
-          fluid={data.fm_03GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="language island Project"
-        />
-        <Img 
-          fluid={data.fm_04GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="language island Project"
-        />
-        <Img 
-          fluid={data.fm_05GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="language island Project"
-        />
-        <Img 
-          fluid={data.fm_06GatsbyImage.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain' }}
-          alt="language island Project"
-        />
-      </div>
-
-      <div className="desc-container-3x3 m-t-45 m-b-15">
+      <div className="m-t-45 m-b-15">
         <article>
-        <a href="https://vimeo.com/754332367" target="_blank" rel="noreferrer">
-          <p>
-            Right Stuff
-          </p> 
-        </a>
+          <h3>
+            Right Stuff Pitch Deck
+          </h3> 
         </article>
         <article>
           <p>
-            Design, storyboarding, animation, video editing, copywriting.
+            Pitch deck for a documentary film.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, presentation design.
           </p>
         </article>
       </div>
@@ -210,20 +221,6 @@ export const query = graphql`
       }
     },
     lI_6GatsbyImage: file(relativePath: {eq: "projects/cousins/language-island/6.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    lI_7GatsbyImage: file(relativePath: {eq: "projects/cousins/language-island/7.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    lI_8GatsbyImage: file(relativePath: {eq: "projects/cousins/language-island/8.webp"}) {
       childImageSharp {
         fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid

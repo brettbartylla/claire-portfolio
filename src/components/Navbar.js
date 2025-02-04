@@ -5,10 +5,23 @@ import "./sass/styles.scss"
 export default function Navbar() {
   return (
     <nav id="nav">
+      <Link to="/" activeClassName="active" id='loadNavLink' className=''>
       <h1>Claire Loes</h1>
+      </Link>
+
       <br />
       <h4>COMMERCIAL WORK</h4>
       <ul>
+        <li>
+          <Link to="/indeed" activeClassName="active" id='loadNavLink' className=''>
+            Indeed
+          </Link>
+        </li>
+        <li>
+          <Link to="/cousins" activeClassName="active" id='loadNavLink' className=''>
+            Cousins
+          </Link>
+        </li>
         <li>
           <Link to="/thespco" activeClassName="active" id='loadNavLink' className=''>
             The SPCO
@@ -25,20 +38,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/cousins" activeClassName="active" id='loadNavLink' className=''>
-            Cousins
-          </Link>
-        </li>
-        <li>
-          <Link to="/indeed" activeClassName="active" id='loadNavLink' className=''>
-            Indeed
-          </Link>
-        </li>
-        <li>
           <Link to="/3m" activeClassName="active" className='navLink'>3M</Link>
-        </li>
-        <li>
-          <Link to="/mgb" activeClassName="active" className='navLink'>MBG</Link>
         </li>
         <li>
           <Link to="/roge" activeClassName="active" className='navLink'>Rogê</Link>
@@ -46,6 +46,9 @@ export default function Navbar() {
         {/* <li>
           <Link to="/harris-reed" activeClassName="active">HARRIS REED</Link>
         </li> */}
+        <li>
+          <Link to="/mgb" activeClassName="active" className='navLink'>Garance Rousseau</Link>
+        </li>
         <li>
           <Link to="/sunday-postage" activeClassName="active" className='navLink'>Sunday Postage Vintage</Link>
         </li>

@@ -12,12 +12,11 @@ const NotFoundPage = ({data}) => (
     {/* <Header /> */}
     <Navbar />
     <div className="Projects p-b-40">
-      <h4>Sunday Postage</h4>
-      <div className="desc-container-wide m-b-15">
+      <div className="m-b-15">
         <article>
-          <p>
+          <h3>
           Branding, print & apparel design
-          </p>
+          </h3>
         </article>
         <article>
           <p>

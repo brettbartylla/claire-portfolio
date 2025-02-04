@@ -45,7 +45,7 @@ nav {
 }
 .Projects {
   grid-area: main;
-  margin-top: 74px;
+  margin-top: 53px;
 }
 
 //2x2project grid
@@ -77,6 +77,12 @@ nav {
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
+}
+.desc-container-2x2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
 }
 
 .desc-container-wide {
