@@ -4,18 +4,20 @@
   font-display: fallback;
 }
 @font-face {
-  font-family: NeueMachinaLight;
-  src: url("/fonts/PPNeueMachina-PlainLight.otf");
+  font-family: YoungSerif;
+  // src: url("/fonts/PPNeueMachina-PlainLight.otf");
+  src: url("/fonts/YoungSerif-Regular.ttf");
   font-display: fallback;
 }
+
 //colors
 $primary-color: null;
 $secondary-color: null;
 $tertiary-color: null;
 
 //fonts
-$primary-font: NeueMachinaRegular;
-$secondary-font: NeueMachinaLight;
+$primary-font: YoungSerif;
+$secondary-font: YoungSerif;
 
 $font-size-body: 18px;
 $font-size-secondary: 14px;

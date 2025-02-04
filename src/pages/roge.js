@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import Header from "../components/Header"
+// import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -10,16 +10,15 @@ import Img from 'gatsby-image'
 const NotFoundPage = ({data}) => (
   <Layout>
     <Seo title="Projects | Rogê" />
-    <Header />
+    {/* <Header /> */}
     <Navbar />
     <div className="Projects m-b-30">
-      <h4>ROGÊ</h4>
-      <div className="desc-container m-b-15">
+      <div className="m-b-15">
         <article>
         <a href="https://www.youtube.com/watch?v=uP9aO0Vhmrw" target="_blank" rel="noreferrer">
-          <p>
+          <h3>
             Pra Vida Lyric Video
-          </p>
+          </h3>
         </a>
         </article>
         <article>

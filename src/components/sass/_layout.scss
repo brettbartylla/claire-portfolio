@@ -10,14 +10,25 @@ html {
 }
 
 body {
-  background-color: #CAFFA0;
+  // background-color: #CAFFA0;
+  background-color: #FFF;
   margin: 0;
 }
 
-main {
-  margin-top: 12px;
+.intro {
+  padding-top: 0;
+  margin-top: 0;
 }
 
+main {
+  // margin-top: 12px;
+}
+.border {
+  border: solid #000 1px;
+}
+.bgColorBlack {
+  background-color: #000;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -41,7 +52,8 @@ li {
 }
 
 header {
-  background-color: #FFA959;
+  // background-color: #FFA959;
+  background-color: #FFF;
   border-bottom: 1px solid black;
   width: 100%;
   position: fixed;
@@ -61,5 +73,9 @@ header {
   body::before {
     content: "Mobile site under construction, please view on desktop :)";
     font-family: $primary-font;
+    font-size: 24px;
+    position: absolute;
+    top: 15%;
+    text-align: center;
   }
 }

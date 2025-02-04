@@ -1,5 +1,5 @@
 import * as React from "react"
-import Header from "../components/Header"
+// import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,16 +7,15 @@ import Seo from "../components/seo"
 const NotFoundPage = ({data}) => (
   <Layout>
     <Seo title="Projects | Motion" />
-    <Header />
+    {/* <Header /> */}
     <Navbar />
     <div className="Projects p-b-20">
-      <h4>MOTION</h4>
       <div className="fullWidthVideo">
-        <div className="desc-container-wide m-b-15">
+        <div className=" m-b-15">
           <article>
-            <p>
+            <h3>
               Blox font
-            </p>
+            </h3>
           </article>
           <article>
             <p>
@@ -34,11 +33,11 @@ const NotFoundPage = ({data}) => (
           title="Blox font"
         ></iframe>
 
-        <div className="desc-container-wide m-t-25 m-b-15">
+        <div className="m-t-25 m-b-15">
           <article>
-            <p>
+            <h3>
               Mango drive
-            </p>
+            </h3>
           </article>
           <article>
             <p>
@@ -56,11 +55,11 @@ const NotFoundPage = ({data}) => (
           title="Mango drive"
         ></iframe>
 
-        <div className="desc-container-wide m-t-25 m-b-15">
+        <div className="m-t-25 m-b-15">
           <article>
-            <p>
+            <h3>
               So Nice
-            </p>
+            </h3>
           </article>
           <article>
             <p>
