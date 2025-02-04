@@ -5,23 +5,16 @@ import "./sass/styles.scss"
 export default function Navbar() {
   return (
     <nav id="nav">
+      <Link to="/" activeClassName="active" id='loadNavLink' className=''>
       <h1>Claire Loes</h1>
+      </Link>
+
       <br />
       <h4>COMMERCIAL WORK</h4>
       <ul>
         <li>
-          <Link to="/thespco" activeClassName="active" id='loadNavLink' className=''>
-            The SPCO
-          </Link>
-        </li>
-        <li>
-          <Link to="/garance-rousseau" activeClassName="active" id='loadNavLink' className=''>
-            Garance Rousseau
-          </Link>
-        </li>
-        <li>
-          <Link to="/looking-homeward" activeClassName="active" id='loadNavLink' className=''>
-            Looking Homeward
+          <Link to="/indeed" activeClassName="active" id='loadNavLink' className=''>
+            Indeed
           </Link>
         </li>
         <li>
@@ -30,15 +23,22 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/indeed" activeClassName="active" id='loadNavLink' className=''>
-            Indeed
+          <Link to="/thespco" activeClassName="active" id='loadNavLink' className=''>
+            The SPCO
+          </Link>
+        </li>
+        {/* <li>
+          <Link to="/garance-rousseau" activeClassName="active" id='loadNavLink' className=''>
+            Garance Rousseau
+          </Link>
+        </li> */}
+        <li>
+          <Link to="/looking-homeward" activeClassName="active" id='loadNavLink' className=''>
+            Looking Homeward
           </Link>
         </li>
         <li>
           <Link to="/3m" activeClassName="active" className='navLink'>3M</Link>
-        </li>
-        <li>
-          <Link to="/mgb" activeClassName="active" className='navLink'>MBG</Link>
         </li>
         <li>
           <Link to="/roge" activeClassName="active" className='navLink'>Rogê</Link>
@@ -46,6 +46,9 @@ export default function Navbar() {
         {/* <li>
           <Link to="/harris-reed" activeClassName="active">HARRIS REED</Link>
         </li> */}
+        <li>
+          <Link to="/mgb" activeClassName="active" className='navLink'>Garance Rousseau</Link>
+        </li>
         <li>
           <Link to="/sunday-postage" activeClassName="active" className='navLink'>Sunday Postage Vintage</Link>
         </li>

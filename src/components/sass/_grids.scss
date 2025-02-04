@@ -45,7 +45,7 @@ nav {
 }
 .Projects {
   grid-area: main;
-  margin-top: 74px;
+  margin-top: 53px;
 }
 
 //2x2project grid
@@ -73,6 +73,18 @@ nav {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
   grid-gap: 1em;
 }
+.desc-container-3x3 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.desc-container-2x2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
+}
+
 .desc-container-wide {
   width: 100%; 
   display: grid;

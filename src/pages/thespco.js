@@ -11,22 +11,94 @@ const NotFoundPage = ({data}) => (
     <Seo title="Projects | The SPCO" />
     <Navbar />
     <div className="Projects m-b-30">
-      <h4>The SPCO</h4>
-      <div className="desc-container m-b-15">
-        <article>
-          <p>Encapsulated System Holder Informational video</p>
+      {/* <h4>The SPCO</h4> */}
+
+      <div className="m-b-15 m-b-15">
+      <article>
+          <h3>
+            SPCO Wrapped 2023
+          </h3>
         </article>
         <article>
           <p>
-            Graphic design, animation, 
-            <br />
-            video editing
+            Social reel reflecting on the artistic accomplishments of the SPCO in 2023.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, narrative development, motion design, video editing.
+          </p>
+        </article>
+      </div>
+
+      <div className="grid-2x2 m-t-10">
+        <div className="fullWidthVideo">
+          <iframe
+            src="https://res.cloudinary.com/dfqto9ozl/video/upload/v1738636080/wrapped_02_ahjm9n.mp4"
+            width="640"
+            height="480"
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+            allowFullScreen
+            frameBorder="0"
+            title="Encapsulated System Holder Informal video"
+            ></iframe>
+        </div>
+        <div className="fullWidthVideo">
+          <iframe
+            src="https://res.cloudinary.com/dfqto9ozl/video/upload/v1738636076/wrapped_01_brsw49.mp4"
+            width="640"
+            height="480"
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+            allowFullScreen
+            frameBorder="0"
+            title="Encapsulated System Holder Informal video"
+            ></iframe>
+        </div>
+      </div>
+
+      <div className="m-b-15 m-t-15">
+        <article>
+          <h3>
+            Saint Paul Chamber Orchestra Membership Brochure
+          </h3>  
+          <p>
+            Print design for The Saint Paul Chamber Orchestra's 2024.25 season.
+          </p>      
+        </article>
+        <article>
+          <p>
+            Creative direction, branding, print design and production.
+          </p>
+        </article>
+      </div>
+      <div>
+        <Img 
+          fluid={data.spco_1GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="spco Project"
+        />
+      </div>
+
+      <div className=" m-t-45 m-b-15">
+        <article>
+          <a href="https://www.youtube.com/watch?v=Jpg831hknXs " target="_blank" rel="noreferrer">
+          <h3>65th Season Sizzle Video</h3>
+        </a>
+        </article>
+        <article>
+          <p>
+          Marketing video for the SPCO's 65th season.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, narrative development, motion design, video editing.
           </p>
         </article>
       </div>
       <div className="fullWidthVideo">
         <iframe
-          src="https://player.cloudinary.com/embed/?public_id=https%3A%2F%2Fres.cloudinary.com%2Fdfqto9ozl%2Fvideo%2Fupload%2Fv1663953292%2Fclaire-portfolio%2F3M%2Fmmm_project_01.mp4&cloud_name=dfqto9ozl&player%5Bfluid%5D=true&player%5Bcontrols%5D=true&player%5Bmuted%5D=true&player%5BshowJumpControls%5D=false&player%5BposterOptions%5D%5Btransformation%5D%5BstartOffset%5D=29&player%5Bautoplay%5D=true&source%5BsourceTypes%5D%5B0%5D=mp4"
+          src="https://player.cloudinary.com/embed/?public_id=spco_sizzle_hr7uuh&cloud_name=dfqto9ozl&player[posterOptions][transformation][start_offset]=2"
           width="640"
           height="480"
           allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
@@ -36,102 +108,83 @@ const NotFoundPage = ({data}) => (
           ></iframe>
       </div>
 
-      <div className="grid-2x2 m-t-10">
-      <Img 
-        fluid={data.MMM_1GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_2GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_3GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_4GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      </div>
-      <div className="desc-container m-b-15 m-t-45 m-b-15">
+      <div className="m-b-15 m-t-45 m-b-15">
+      <article>
+          <h3>
+            SPCO Renewal Brochure
+          </h3>
+        </article>
         <article>
           <p>
-            Impact Detection Gateway video
+            Print design for The Saint Paul Chamber Orchestra's 2024.25 season.
           </p>
         </article>
         <article>
-          <p>Design, storyboarding, animation</p>
+          <p>
+            Creative direction, branding, print design and production.
+          </p>
         </article>
       </div>
-      <div className="fullWidthVideo">
-        <iframe
-          src="https://player.cloudinary.com/embed/?public_id=v1664246584%2Fclaire-portfolio%2F3M%2F3M_project_02.mp4&cloud_name=dfqto9ozl&player%5Bfluid%5D=true&player%5Bcontrols%5D=true&source%5BsourceTypes%5D%5B0%5D=mp4"
-          width="640"
-          height="480"
-          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-          allowfullscreen
-          frameborder="0"
-        ></iframe>
-      </div>
-      <div className="grid-2x2 m-t-10">
-      <Img 
-        fluid={data.MMM_5GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_6GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_7GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_8GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
+      <div>
+        <Img 
+          fluid={data.spco_2GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="spco Project"
+        />
       </div>
 
-      <div className="desc-container m-b-15 m-t-45 m-b-15">
+      <div className="m-b-15 m-t-45 m-b-15">
+      <article>
+          <h3>
+            Email Banners
+          </h3>
+        </article>
         <article>
           <p>
-            Molecular Detetion System video
+            Various banners for email communications to audience members.
           </p>
         </article>
         <article>
-          <p>Design, storyboarding, animation</p>
+          <p>
+            Creative direction, motion design.
+          </p>
         </article>
       </div>
       <div className="grid-2x2">
-      <Img 
-        fluid={data.MMM_9GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_10GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_11GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
-      <Img 
-        fluid={data.MMM_12GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="3m Project"
-      />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738644264/email_04_fvyxts.gif" alt="email header gif" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738643536/email_03_uyouxz.gif" alt="email header gif" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738643529/email_05_eweygu.gif" alt="email header gif" />
+        <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738645352/email_bf_update_imewu4.gif" alt="email header gif" />
+      </div>
+
+      <div className="m-b-15 m-t-45 m-b-15">
+      <article>
+          <h3>
+            Winter Postcards
+          </h3>
+        </article>
+        <article>
+          <p>
+            Marketing postcards for 24.25 Holiday and winter concerts.
+          </p>
+        </article>
+        <article>
+          <p>
+            Creative direction, branding, print design.
+          </p>
+        </article>
+      </div>
+      <div className="grid-2x2">
+        <Img 
+          fluid={data.spco_3GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="spco Project"
+        />
+        <Img 
+          fluid={data.spco_4GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="spco Project"
+        />
       </div>
     </div>
   </Layout>
@@ -142,84 +195,28 @@ export default NotFoundPage
 // image queries
 export const query = graphql`
   query {
-    MMM_1GatsbyImage: file(relativePath: {eq: "projects/3M/3M_01.webp"}) {
+    spco_1GatsbyImage: file(relativePath: {eq: "projects/spco/membership.webp"}) {
       childImageSharp {
         fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
         }
       }
     },
-    MMM_2GatsbyImage: file(relativePath: {eq: "projects/3M/3M_02.webp"}) {
+    spco_2GatsbyImage: file(relativePath: {eq: "projects/spco/renewal.webp"}) {
       childImageSharp {
         fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
         }
       }
     },
-    MMM_3GatsbyImage: file(relativePath: {eq: "projects/3M/3M_03.webp"}) {
+    spco_3GatsbyImage: file(relativePath: {eq: "projects/spco/postcard_01.webp"}) {
       childImageSharp {
         fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid
         }
       }
     },
-    MMM_4GatsbyImage: file(relativePath: {eq: "projects/3M/3M_04.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    MMM_5GatsbyImage: file(relativePath: {eq: "projects/3M/3M_05.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    MMM_6GatsbyImage: file(relativePath: {eq: "projects/3M/3M_06.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    MMM_7GatsbyImage: file(relativePath: {eq: "projects/3M/3M_07.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    MMM_8GatsbyImage: file(relativePath: {eq: "projects/3M/3M_08.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    MMM_9GatsbyImage: file(relativePath: {eq: "projects/3M/3M_09.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    MMM_10GatsbyImage: file(relativePath: {eq: "projects/3M/3M_10.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    MMM_11GatsbyImage: file(relativePath: {eq: "projects/3M/3M_11.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-    MMM_12GatsbyImage: file(relativePath: {eq: "projects/3M/3M_12.webp"}) {
+    spco_4GatsbyImage: file(relativePath: {eq: "projects/spco/postcard_02.webp"}) {
       childImageSharp {
         fluid(maxWidth: 2000, quality: 90) {
         ...GatsbyImageSharpFluid

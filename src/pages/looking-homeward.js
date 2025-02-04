@@ -12,26 +12,28 @@ const NotFoundPage = ({data}) => (
 
     <Navbar />
     <div className="Projects m-b-30">
-      <h4>Looking Homeward</h4>
-      <div className="desc-container m-b-15">
+      <div className="m-b-15">
         <article>
-          <p>Encapsulated System Holder Informational video</p>
+          <h3>Looking Homeward</h3>
         </article>
         <article>
           <p>
-            Graphic design, animation, 
-            <br />
-            video editing
+            Print design and production for 2023 Minnesota State Arts Board grant recipient George Slade.            <br/><br/>
+            Looking Homeward is part of the 
+            Rosemary Furtak Artist Book Collection at the Walker Art Center Library.
           </p>
         </article>
       </div>
 
-      <div className="grid-2x2 m-t-10">
-      <Img 
-        fluid={data.lh_1GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="book project"
-      />
+      <div>
+        <Img 
+          fluid={data.lh_1GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="book project"
+        />
+      </div>
+
+      <div className="grid-2x2 m-t-15">
       <Img 
         fluid={data.lh_2GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
@@ -47,8 +49,13 @@ const NotFoundPage = ({data}) => (
         imgStyle={{ objectFit: 'contain' }}
         alt="book project"
       />
+      <Img 
+        fluid={data.lh_12GatsbyImage.childImageSharp.fluid}
+        imgStyle={{ objectFit: 'contain' }}
+        alt="book project"
+      />
       </div>
-      <div className="grid-2x2 m-t-10">
+      <div className="grid-2x2 m-t-15">
       <Img 
         fluid={data.lh_5GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
@@ -83,11 +90,6 @@ const NotFoundPage = ({data}) => (
       />
       <Img 
         fluid={data.lh_11GatsbyImage.childImageSharp.fluid}
-        imgStyle={{ objectFit: 'contain' }}
-        alt="book project"
-      />
-      <Img 
-        fluid={data.lh_12GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="book project"
       />

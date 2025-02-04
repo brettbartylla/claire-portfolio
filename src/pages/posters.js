@@ -12,7 +12,7 @@ const NotFoundPage = ({data}) => (
     {/* <Header /> */}
     <Navbar />
     <div className="Projects">
-      <h4>POSTERS</h4>
+      <h3>POSTERS</h3>
       <Img 
         fluid={data.poster_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}

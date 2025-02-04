@@ -11,7 +11,7 @@ const NotFoundPage = ({data}) => (
     {/* <Header /> */}
     <Navbar />
     <div className="Projects">
-      <h4>HARRIS REED</h4>
+      <h3>HARRIS REED</h3>
       {/* <Img 
         fluid={data.mbg_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}

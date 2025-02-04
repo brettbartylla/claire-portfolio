@@ -29,10 +29,10 @@ const IndexPage = ({data}) => (
           loes.claire@gmail.com
         </p>
 
-        <h4 className="txt-underline p-t-40">RESUME</h4>
+        {/* <h4 className="txt-underline p-t-40">VIEW RESUME</h4>
         <p>
           loes.claire@gmail.com
-        </p>
+        </p> */}
     </div>
   </Layout>
 )

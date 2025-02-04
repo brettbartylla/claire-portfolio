@@ -9,19 +9,15 @@ import Img from 'gatsby-image'
 const NotFoundPage = ({data}) => (
   <Layout>
     <Seo title="Projects | 3M" />
-
     <Navbar />
     <div className="Projects m-b-30">
-      <h4>3M</h4>
-      <div className="desc-container m-b-15">
+      <div className="m-b-15">
         <article>
-          <p>Encapsulated System Holder Informational video</p>
+          <h3>Encapsulated System Holder Informational video</h3>
         </article>
         <article>
           <p>
-            Graphic design, animation, 
-            <br />
-            video editing
+            Graphic design, animation, video editing
           </p>
         </article>
       </div>
@@ -59,11 +55,11 @@ const NotFoundPage = ({data}) => (
         alt="3m Project"
       />
       </div>
-      <div className="desc-container m-b-15 m-t-45 m-b-15">
+      <div className="m-b-15 m-t-45 m-b-15">
         <article>
-          <p>
+          <h3>
             Impact Detection Gateway video
-          </p>
+          </h3>
         </article>
         <article>
           <p>Design, storyboarding, animation</p>
@@ -102,11 +98,11 @@ const NotFoundPage = ({data}) => (
       />
       </div>
 
-      <div className="desc-container m-b-15 m-t-45 m-b-15">
+      <div className="m-b-15 m-t-45 m-b-15">
         <article>
-          <p>
+          <h3>
             Molecular Detetion System video
-          </p>
+          </h3>
         </article>
         <article>
           <p>Design, storyboarding, animation</p>
