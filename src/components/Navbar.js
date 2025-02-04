@@ -14,11 +14,11 @@ export default function Navbar() {
             The SPCO
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/garance-rousseau" activeClassName="active" id='loadNavLink' className=''>
             Garance Rousseau
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/looking-homeward" activeClassName="active" id='loadNavLink' className=''>
             Looking Homeward

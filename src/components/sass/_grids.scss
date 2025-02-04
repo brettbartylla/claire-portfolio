@@ -73,6 +73,12 @@ nav {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
   grid-gap: 1em;
 }
+.desc-container-3x3 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .desc-container-wide {
   width: 100%; 
   display: grid;
