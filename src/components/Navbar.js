@@ -1,8 +1,10 @@
+import * as React from "react"
+import { graphql } from "gatsby"
 import { Link } from 'gatsby'
-import React from 'react'
 import "./sass/styles.scss"
+import Img from 'gatsby-image'
 
-export default function Navbar() {
+export default function Navbar({data}) {
   return (
     <nav id="nav">
       <Link to="/" activeClassName="active" id='loadNavLink' className=''>
@@ -72,6 +74,13 @@ export default function Navbar() {
           <Link to="/posters" activeClassName="active" className='navLink'>Posters</Link>
         </li>
       </ul>
+      <div>
+        {/* <Img 
+          fluid={data.apple_GatsbyImage.childImageSharp.fluid}
+          imgStyle={{ objectFit: 'contain' }}
+          alt="apple"
+        /> */}
+      </div>
     </nav>
   )
 }
