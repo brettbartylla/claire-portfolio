@@ -84,16 +84,3 @@ export default function Navbar({data}) {
     </nav>
   )
 }
-
-// image queries
-export const query = graphql`
-  query {
-    apple_GatsbyImage: file(relativePath: {eq: "apple.webp"}) {
-      childImageSharp {
-        fluid(maxWidth: 2000, quality: 90) {
-        ...GatsbyImageSharpFluid
-        }
-      }
-    },
-  }
-`
