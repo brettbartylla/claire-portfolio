@@ -23,7 +23,7 @@ const NotFoundPage = ({data}) => (
         </article>
         <article>
           <p>
-            Typography and motion design
+            Typography and motion design for Pra Vida lyric video by Rogê.
           </p>
         </article>
       </div>

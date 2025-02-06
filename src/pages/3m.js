@@ -13,7 +13,7 @@ const NotFoundPage = ({data}) => (
     <div className="Projects m-b-30">
       <div className="m-b-15">
         <article>
-          <h3>Encapsulated System Holder Informational video</h3>
+          <h3>Encapsulated System Holder Informational Video</h3>
         </article>
         <article>
           <p>
@@ -58,7 +58,7 @@ const NotFoundPage = ({data}) => (
       <div className="m-b-15 m-t-45 m-b-15">
         <article>
           <h3>
-            Impact Detection Gateway video
+            Impact Detection Gateway Video
           </h3>
         </article>
         <article>
@@ -101,7 +101,7 @@ const NotFoundPage = ({data}) => (
       <div className="m-b-15 m-t-45 m-b-15">
         <article>
           <h3>
-            Molecular Detetion System video
+            Molecular Detetion System Video
           </h3>
         </article>
         <article>

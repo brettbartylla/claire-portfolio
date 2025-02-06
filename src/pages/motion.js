@@ -11,7 +11,7 @@ const NotFoundPage = ({data}) => (
     <Navbar />
     <div className="Projects p-b-20">
       <div className="fullWidthVideo">
-        <div className=" m-b-15">
+        <div className="m-b-15">
           <article>
             <h3>
               Blox font
@@ -33,7 +33,7 @@ const NotFoundPage = ({data}) => (
           title="Blox font"
         ></iframe>
 
-        <div className="m-t-25 m-b-15">
+        <div className="m-t-45 m-b-15">
           <article>
             <h3>
               Mango drive
@@ -55,7 +55,7 @@ const NotFoundPage = ({data}) => (
           title="Mango drive"
         ></iframe>
 
-        <div className="m-t-25 m-b-15">
+        <div className="m-t-45 m-b-15">
           <article>
             <h3>
               So Nice
@@ -77,6 +77,21 @@ const NotFoundPage = ({data}) => (
         tite="So nice"
       ></iframe>
       </div>
+
+      <div className="m-t-45 m-b-15">
+        <article>
+          <h3>
+            Sneaks
+          </h3>
+        </article>
+        <article>
+          <p>
+          Animated illustrations for a former portfolio website.
+          </p>
+        </article>
+      </div>
+      <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/v1738806568/sneaks_V4_rfd1xq.gif" alt="email header gif" />
+    
     </div>
   </Layout>
 )
