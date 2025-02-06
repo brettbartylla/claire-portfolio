@@ -77,12 +77,13 @@ const NotFoundPage = ({data}) => (
         alt="book project"
       />
       </div>
-      <div className="grid-2x2 m-t-20">
       <Img 
         fluid={data.lh_9GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
         alt="book project"
+        className={'m-t-15'}
       />
+      <div className="grid-2x2 m-t-20">
       <Img 
         fluid={data.lh_10GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}

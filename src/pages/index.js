@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Helmet from "react-helmet"
 import { withPrefix } from "gatsby"
+import resume from '../pdfs/Claire-Loes_Resume.pdf' 
 
 
 const IndexPage = ({data}) => (
@@ -24,10 +25,19 @@ const IndexPage = ({data}) => (
           interests as a designer. I’m inspired by the time I spend outside and thoughtful details.
         </p>
 
-        <h4 className="txt-underline p-t-40">CONTACT</h4>
-        <p>
+        {/* <h4 className="txt-underline p-t-40">CONTACT</h4> */}
+        <p className="p-t-30">
           loes.claire@gmail.com
         </p>
+
+        <a 
+          href={resume}
+          target="_blank"
+        >
+          <p>
+            Resume
+          </p>
+        </a>
 
         {/* <h4 className="txt-underline p-t-40">VIEW RESUME</h4>
         <p>
