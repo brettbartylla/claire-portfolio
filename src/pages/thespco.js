@@ -16,7 +16,7 @@ const NotFoundPage = ({data}) => (
       <div className="m-b-15 m-b-15">
       <article>
           <h3>
-            SPCO Wrapped 2023
+            Saint Paul Chamber Orchestra Wrapped 2023
           </h3>
         </article>
         <article>

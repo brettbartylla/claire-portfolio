@@ -21,7 +21,7 @@ const NotFoundPage = ({data}) => (
         </article>
         <article>
           <p>
-            Advertising pitch for Cousins and Duolingo.
+            Advertising pitch for Duolingo.
           </p>
         </article>
         <article>
@@ -71,7 +71,7 @@ const NotFoundPage = ({data}) => (
         </article>
         <article>
           <p>
-            Advertising pitch for Cousins and Ford Models.
+            Advertising pitch for Ford Models.
           </p>
         </article>
         <article>
