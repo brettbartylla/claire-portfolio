@@ -15,7 +15,7 @@ const NotFoundPage = ({data}) => (
     <div className="Projects m-b-30">
       <div className="m-b-15">
         <article>
-          <a href="https://www.youtube.com/watch?v=a5_FEsaWbqY " target="_blank" rel="noreferrer">
+          <a href="https://www.youtube.com/watch?v=mMG3wdMapDU" target="_blank" rel="noreferrer">
             <h3>Language Island Pitch Deck</h3>
           </a>
         </article>
@@ -130,7 +130,7 @@ const NotFoundPage = ({data}) => (
       <div className="m-t-45 m-b-15">
         <article>
           <h3>
-            Right Stuff Pitch Deck
+          The Right Stuff Pitch Deck
           </h3> 
         </article>
         <article>
@@ -156,7 +156,7 @@ const NotFoundPage = ({data}) => (
           alt="right stuff Project"
         />
         <Img 
-          fluid={data.rs_3GatsbyImage.childImageSharp.fluid}
+          fluid={data.rs_5GatsbyImage.childImageSharp.fluid}
           imgStyle={{ objectFit: 'contain' }}
           alt="right stuff Project"
         />
@@ -166,7 +166,7 @@ const NotFoundPage = ({data}) => (
           alt="right stuff Project"
         />
         <Img 
-          fluid={data.rs_5GatsbyImage.childImageSharp.fluid}
+          fluid={data.rs_3GatsbyImage.childImageSharp.fluid}
           imgStyle={{ objectFit: 'contain' }}
           alt="right stuff Project"
         />

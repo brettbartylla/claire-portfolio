@@ -73,6 +73,9 @@ export default function Navbar({data}) {
         <li>
           <Link to="/posters" activeClassName="active" className='navLink'>Posters</Link>
         </li>
+        <li>
+          <Link to="/illustration" activeClassName="active" className='navLink'>Illustration</Link>
+        </li>
       </ul>
       <div>
         {/* <Img 
