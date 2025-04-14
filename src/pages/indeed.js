@@ -1,5 +1,5 @@
 import * as React from "react"
-import Header from "../components/Header"
+// import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,26 +9,25 @@ import { graphql } from 'gatsby'
 const NotFoundPage = ({data}) => (
   <Layout>
     <Seo title="Projects | Indeed" />
-    <Header />
+    {/* <Header /> */}
     <Navbar />
     <div className="Projects">
-      <h4>INDEED</h4>
-      <div className="desc-container m-b-15">
+      <div className="m-b-15">
         <article>
         <a href="https://vimeo.com/manage/videos/752607527" target="_blank" rel="noreferrer">
-          <p>
+          <h3>
             Campaign Marketing Video
-          </p>
+          </h3>
         </a>
         </article>
         <article>
           <p>
-          Graphic design, animation, video editing, copywriting
+            New hiring feature marketing video for Indeed.
           </p>
         </article>
         <article>
           <p>
-            New hiring feature marketing video for Indeed
+          Graphic design, animation, video editing, copywriting.
           </p>
         </article>
       </div>
@@ -39,12 +38,12 @@ const NotFoundPage = ({data}) => (
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_02.gif" alt="" />
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_10.gif" alt="" />
       </div>
-      <div className="desc-container m-t-45 m-b-15">
+      <div className="m-t-45 m-b-15">
         <article>
         <a href="https://vimeo.com/754332071" target="_blank" rel="noreferrer">
-          <p>
+          <h3>
             Help Center Billing video
-          </p>
+          </h3>
         </a>
         </article>
         <article>
@@ -61,12 +60,12 @@ const NotFoundPage = ({data}) => (
         <img src="https://res.cloudinary.com/dfqto9ozl/image/upload/f_webp/v1663971454/claire-portfolio/indeed/gifs/indeed_gif_13.gif" alt="" />
       </div>
 
-      <div className="desc-container m-t-45 m-b-15">
+      <div className="m-t-45 m-b-15">
         <article>
         <a href="https://vimeo.com/754332367" target="_blank" rel="noreferrer">
-          <p>
+          <h3>
             Help Center Campaigns video
-          </p> 
+          </h3> 
         </a>
         </article>
         <article>

@@ -1,5 +1,5 @@
 import * as React from "react"
-import Header from "../components/Header"
+// import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -8,10 +8,10 @@ import Seo from "../components/seo"
 const NotFoundPage = ({data}) => (
   <Layout>
     <Seo title="Projects | HARRIS REED" />
-    <Header />
+    {/* <Header /> */}
     <Navbar />
     <div className="Projects">
-      <h4>HARRIS REED</h4>
+      <h3>HARRIS REED</h3>
       {/* <Img 
         fluid={data.mbg_1GatsbyImage.childImageSharp.fluid}
         imgStyle={{ objectFit: 'contain' }}
