@@ -5,12 +5,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Helmet from "react-helmet"
 import { withPrefix } from "gatsby"
-import resume from '../pdfs/Claire-Loes_Resume.pdf' 
+import resume from '../pdfs/claire_loes_resume.pdf' 
 
 
 const IndexPage = ({data}) => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="" />
     <Navbar />
     <div className="Projects info">
         <p className="intro about">
