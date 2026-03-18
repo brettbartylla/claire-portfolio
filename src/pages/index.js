@@ -14,15 +14,13 @@ const IndexPage = ({data}) => (
     <Navbar />
     <div className="Projects info">
         <p className="intro about">
-          Hi! I’m Claire Loes, a designer and illustrator living in Minneapolis. 
-          I earned my BFA from Minneapolis College of Art and Design (MCAD) in 2020. 
-          My work is quite diverse, ranging from commercial projects to more expressive, 
-          artistic pieces.
+          Hi, I’m Claire Loes— a Minneapolis-based designer and illustrator working across motion, identity, and image-making for music and culture. 
         </p>
         <p className="about">
-          I work with a broad variety of clients; throughout my projects, playful typography, 
-          an enthusiasm for color and motion that brings the design to life represent my creative 
-          interests as a designer. I’m inspired by the time I spend outside and thoughtful details.
+          I create visual systems that translate sound into image, using typography, color, and movement to build atmosphere and carry emotion. My work spans campaigns, visual identities, and video, often developed in close collaboration with musicians and arts organizations. 
+        </p>
+        <p>
+          Balancing structure with experimentation, I’m interested in work that feels textural, rhythmic, and immersive. Alongside client work, I maintain an evolving <a href="https://claireloes.tumblr.com/" target="_blank" rel="noopener noreferrer">portfolio</a> of select commissions and exploratory projects. 
         </p>
 
         {/* <h4 className="txt-underline p-t-40">CONTACT</h4> */}

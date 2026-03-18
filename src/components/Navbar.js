@@ -15,25 +15,18 @@ export default function Navbar({data}) {
       <h4>COMMERCIAL WORK</h4>
       <ul>
         <li>
-          <Link to="/indeed" activeClassName="active" id='loadNavLink' className=''>
-            Indeed
+          <Link to="/thespco" activeClassName="active" id='loadNavLink' className=''>
+            The SPCO
           </Link>
+        </li>
+        <li>
+          <Link to="/roge" activeClassName="active" className='navLink'>Rogê</Link>
         </li>
         <li>
           <Link to="/cousins" activeClassName="active" id='loadNavLink' className=''>
             Cousins
           </Link>
         </li>
-        <li>
-          <Link to="/thespco" activeClassName="active" id='loadNavLink' className=''>
-            The SPCO
-          </Link>
-        </li>
-        {/* <li>
-          <Link to="/garance-rousseau" activeClassName="active" id='loadNavLink' className=''>
-            Garance Rousseau
-          </Link>
-        </li> */}
         <li>
           <Link to="/looking-homeward" activeClassName="active" id='loadNavLink' className=''>
             Looking Homeward
@@ -43,17 +36,24 @@ export default function Navbar({data}) {
           <Link to="/3m" activeClassName="active" className='navLink'>3M</Link>
         </li>
         <li>
-          <Link to="/roge" activeClassName="active" className='navLink'>Rogê</Link>
+          <Link to="/indeed" activeClassName="active" id='loadNavLink' className=''>
+            Indeed
+          </Link>
         </li>
+        {/* <li>
+          <Link to="/garance-rousseau" activeClassName="active" id='loadNavLink' className=''>
+            Garance Rousseau
+          </Link>
+        </li> */}
         {/* <li>
           <Link to="/harris-reed" activeClassName="active">HARRIS REED</Link>
         </li> */}
-        <li>
+        {/* <li>
           <Link to="/mgb" activeClassName="active" className='navLink'>Garance Rousseau</Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to="/sunday-postage" activeClassName="active" className='navLink'>Sunday Postage Vintage</Link>
-        </li>
+        </li> */}
         {/* <li>
           <Link to="/friends-of-mine" activeClassName="active" className='navLink'>FRIENDS OF MINE</Link>
         </li> */}
@@ -62,9 +62,14 @@ export default function Navbar({data}) {
         </li> */}
       </ul>
       <br />
-      <h4>INDEPENDENT WORK</h4>
+      {/* <Link to="/books" activeClassName="active" className='navLink'>
+        INDEPENDENT WORK
+      </Link>
+ */}
+
       <ul>
-        <li>
+
+        {/* <li>
           <Link to="/motion" activeClassName="active" className='navLink'>Motion</Link>
         </li>
         <li>
@@ -75,7 +80,7 @@ export default function Navbar({data}) {
         </li>
         <li>
           <Link to="/illustration" activeClassName="active" className='navLink'>Illustration</Link>
-        </li>
+        </li> */}
       </ul>
       <div>
         {/* <Img 
